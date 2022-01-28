@@ -1,0 +1,150 @@
+{
+  "passages": [
+    {
+      "text": "As the entity awakes, understanding dimly itching at the back of its being, it is confused. Everything is empty, and that isn’t right. It remembers there being…..something. With that memory comes a flicker, and then a spark, and then a name: ‘X’. With the name comes a feeling of self, of purpose, and you remember why you were put here: To create something new, a new world with new rules. And as  with all ideas, it has to begin with a spark, a star. The first choice.\n\n[[Single Star System->One Star]]\n\n[[Binary Star System->Two Star]] \n",
+      "links": [
+        {
+          "name": "Single Star System",
+          "link": "One Star",
+          "pid": "2"
+        },
+        {
+          "name": "Binary Star System",
+          "link": "Two Star",
+          "pid": "3"
+        }
+      ],
+      "name": "The Beginning",
+      "pid": "1",
+      "position": {
+        "x": "860",
+        "y": "368.5"
+      }
+    },
+    {
+      "text": "A simple choice is often the most elegant. So you fuse the necessary elements together to create the burning furnace of a single star. The foundation now complete, the scenery must be added. You lay the background carpeting of stars and galaxies that will be visible from your future world. And then the largely decorative planets in their various orbits to furnish the solar system.With this complete, you turn your mind to the object of your existence: The planet you must make. Large or small? A larger planet will have more room for its species to grow and prosper, more resources. However the larger gravitational pull could cause problems down the line with rogue {{celestial bodies->Meteors, comets etc}}. Smaller would lessen the likelihood of such an event but would limit the space and resources for the inhabitants of your planet. \n\n\n[[Large Planet->Large Planet]]\n\n[[Small Planet->Small Planet]]\n",
+      "links": [
+        {
+          "name": "Large Planet",
+          "link": "Large Planet",
+          "pid": "4"
+        },
+        {
+          "name": "Small Planet",
+          "link": "Small Planet",
+          "pid": "5"
+        }
+      ],
+      "name": "One Star",
+      "pid": "2",
+      "position": {
+        "x": "740",
+        "y": "518.5"
+      }
+    },
+    {
+      "text": "A single star, although a classic, has been done before. Time for innovation. A Binary system. Two stars, two Suns, to gaze up at. The foundation now complete, the scenery must be added. You lay the background carpeting of stars and galaxies that will be visible from your future world. And then the largely decorative planets in their various orbits to furnish the solar system.With this complete, you turn your mind to the object of your existence: The planet you must make. Large or small? A larger planet will have more room for its species to grow and prosper, more resources. However the larger gravitational pull could cause problems down the line with rogue celestial bodies. Smaller would lessen the likelihood of such an event but would limit the space and resources for the inhabitants of your planet.\n\n[[Large Planet->Large Planet]]\n\n[[Small Planet->Small Planet]] \n",
+      "links": [
+        {
+          "name": "Large Planet",
+          "link": "Large Planet",
+          "pid": "4"
+        },
+        {
+          "name": "Small Planet",
+          "link": "Small Planet",
+          "pid": "5"
+        }
+      ],
+      "name": "Two Star",
+      "pid": "3",
+      "position": {
+        "x": "980",
+        "y": "518.5"
+      }
+    },
+    {
+      "text": "Concentrating once more, you pull in the discharge of particles from the creation of the furnishings of your burgeoning reality and compact them. Piling together the rock and metal and dust until you have created a large and cratered spheroid. Grey and dull, illuminated by your stellar engine, it pulls at you. A world like this could be a Gaia, verdant  green, teeming with life. A world like this would be more comfortable to inhabit, but more difficult to develop. Or it could be a relatively barren desert. Where life has to fight against the planet to survive. Life would be harsh. It would be unfair. But the species that evolve here would be hardy, strong.\n\n[[Gaia World->Gaia World]]\n\n[[Desert World->Desert World]]",
+      "links": [
+        {
+          "name": "Gaia World",
+          "link": "Gaia World",
+          "pid": "6"
+        },
+        {
+          "name": "Desert World",
+          "link": "Desert World",
+          "pid": "7"
+        }
+      ],
+      "name": "Large Planet",
+      "pid": "4",
+      "position": {
+        "x": "684",
+        "y": "674.5"
+      }
+    },
+    {
+      "text": "Concentrating once more, you pull in the discharge of particles from the creation of the furnishings of your burgeoning reality and compact them. Piling together the rock and metal and dust until you have created a small but dense planet. This planet is mostly smooth, with small channels and cracks breaking up the otherwise featureless landscape. With this world you see visions of two possibilities. A cold and unforgiving Tundra World, or a warm and plentiful Ocean World. The former would condition the inhabitants to be hardy, but sparse. The latter, a plentiful aquatic species. However one that might find difficulty in utilising resources. \n\n[[Tundra World->Tundra World]]\n\n[[Aquatic World->Aquatic World]]",
+      "links": [
+        {
+          "name": "Tundra World",
+          "link": "Tundra World",
+          "pid": "8"
+        },
+        {
+          "name": "Aquatic World",
+          "link": "Aquatic World",
+          "pid": "9"
+        }
+      ],
+      "name": "Small Planet",
+      "pid": "5",
+      "position": {
+        "x": "991",
+        "y": "669.5"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Gaia World",
+      "pid": "6",
+      "position": {
+        "x": "590",
+        "y": "818.5"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Desert World",
+      "pid": "7",
+      "position": {
+        "x": "740",
+        "y": "818.5"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Tundra World",
+      "pid": "8",
+      "position": {
+        "x": "930",
+        "y": "810.5"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Aquatic World",
+      "pid": "9",
+      "position": {
+        "x": "1073",
+        "y": "817.5"
+      }
+    }
+  ],
+  "name": "God Complex",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.16",
+  "ifid": "2A15D058-12C1-4094-AB57-D278708B43C2"
+}
