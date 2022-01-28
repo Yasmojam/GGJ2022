@@ -1,0 +1,7 @@
+@use "defaults";
+
+.Container {
+  display: flex;
+  justify-content: center;
+  font-family: defaults.$font-stack;
+}
