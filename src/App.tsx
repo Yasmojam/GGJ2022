@@ -5,12 +5,16 @@ import Link from "./components/Link";
 import NarrativeText from "./components/NarrativeText";
 import BackgroundImage from "./components/BackgroundImage";
 
+import LocalisationManager from "./localisationModel/localisation";
+
 import binary from "./assets/art/backgrounds/single.png";
 
 function App() {
 
   const gameState = useContext(GameContext); 
   const options = gameState.currentPassage?.links ?? [];
+
+  const localisationManager = new LocalisationManager();
 
   return (
       <div className="App">
