@@ -5,6 +5,10 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import {GameProvider} from "../src/context/GameContext";
 
+// import './fonts/Splendid66/Splendid66.ttf';
+// import './fonts/Splendid66/Splendid66.ttf';
+// import './fonts/Splendid66/Splendid66.ttf';
+
 ReactDOM.render(
   <React.StrictMode>
     <GameProvider>
