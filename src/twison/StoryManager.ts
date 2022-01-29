@@ -37,13 +37,22 @@ class StoryManager {
 
   goToLink(pid: string): string {
     if (pid in this.passagesByPid) {
-      this.pidOrder.push(pid);
-      const choice = this.getCurrentChoiceTag();
-      if (choice) {
-        this.choices.push(choice);
+      if (pid === this.story.startnode) {
+        this.reset();
+      } else {
+        this.pidOrder.push(pid);
+        const choice = this.getCurrentChoiceTag();
+        if (choice) {
+          this.choices.push(choice);
+        }
       }
     }
     return this.getCurrentPid();
+  }
+
+  reset(): void {
+    this.choices = [];
+    this.pidOrder = [this.story.startnode];
   }
 
   getCurrentChoiceTag(): string | null {
@@ -51,7 +60,7 @@ class StoryManager {
   }
 
   getChoices(): string[] {
-    return this.choices;
+    return this.choices.length > 0 ? this.choices : ["empty"];
   }
 
   goBack(): string {

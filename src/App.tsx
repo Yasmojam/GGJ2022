@@ -5,7 +5,6 @@ import Link from "./components/Link";
 import NarrativeText from "./components/NarrativeText";
 import BackgroundImage from "./components/BackgroundImage";
 
-import binary from "./assets/art/backgrounds/single.png";
 import ReactAudioPlayer from "react-audio-player";
 
 function App() {
