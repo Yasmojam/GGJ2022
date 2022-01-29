@@ -1,25 +1,24 @@
-import React from "react";
-import logo from "./logo.svg";
+import React, {useContext} from "react";
 import "./App.css";
-import { GameProvider } from "./context/GameContext";
+import { GameContext, GameProvider } from "./context/GameContext";
+import Link from "./components/Link";
 
 function App() {
+
+  const gameState = useContext(GameContext); 
+  const options = gameState.currentPassage?.links ?? [];
+
   return (
     <GameProvider>
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <p>{gameState.currentPassage?.text}</p>
+
+          {options.map((option:Link, index) => {
+            return(
+              <Link text={option.name} nextPassageId={option.pid} key={index}/>
+            )
+          })}
         </header>
       </div>
     </GameProvider>
