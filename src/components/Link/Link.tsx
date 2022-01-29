@@ -9,10 +9,10 @@ interface ButtonProps {
 
 const Link = ({ text, nextPassageId }: ButtonProps) => {
   const gameState = useContext(GameContext);
+
   return (
-    <div className="Container">
-      <a href={`${nextPassageId}`}>{gameState.username}</a>
-      <a href={`${nextPassageId}`}>{text}</a>
+    <div className="Container" onClick={() => {gameState.goToPassageId(nextPassageId)}}>
+      {text}
     </div>
   );
 };
