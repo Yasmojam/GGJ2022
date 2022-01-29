@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useRef } from "react";
 import { GameContext } from "../../context/GameContext";
 import "./Link.scss";
 
@@ -10,8 +10,12 @@ interface ButtonProps {
 const Link = ({ text, nextPassageId }: ButtonProps) => {
   const gameState = useContext(GameContext);
 
+  const onClick = () => {
+    gameState.goToPassageId(nextPassageId);
+  };
+
   return (
-    <div className="Link" onClick={() => {gameState.goToPassageId(nextPassageId)}}>
+    <div className="Link" onClick={onClick}>
       {text}
     </div>
   );

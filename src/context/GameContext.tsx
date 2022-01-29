@@ -13,7 +13,7 @@ interface IContext {
 export const GameContext = createContext<IContext>({
   username: "",
   currentPassage: null,
-  goToPassageId: () => {}
+  goToPassageId: () => {},
 });
 
 const story = new StoryManager();
