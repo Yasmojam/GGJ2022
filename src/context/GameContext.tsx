@@ -6,7 +6,6 @@ interface IContext {
   username: string;
   currentPassage: Passage | null;
   setUsername?: (username: string) => void;
-  setCurrentStory?: (story: Story | null) => void;
   goToPassageId?: (passage: string) => void;
   goBack?: () => void;
 }
