@@ -1,11 +1,12 @@
 
 import './BackgroundImage.scss';
+import CrossfadeImage from 'react-crossfade-image';
 
 const BackgroundImage = ({ src }) => {
 
     return (
         <div className="BackgroundImage">
-            <img src={src} alt="" height="100%" width="100%" />
+            <CrossfadeImage duration={1000} src={src} alt="" />
         </div>
     );
 };
