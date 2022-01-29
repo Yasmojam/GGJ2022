@@ -40,8 +40,9 @@ $shooting-time: 3000ms;
 
 .night {
     position: fixed;
-    width: 300vw;
-    height: 300vh;
+    width: 100vw;
+    height: 100vh;
+    transform-origin: center;
     transform: rotateZ(45deg);
     pointer-events: none;
     // animation: sky 200000ms linear infinite;
@@ -90,13 +91,13 @@ $shooting-time: 3000ms;
         transform: translateX(50%) rotateZ(-45deg);
     }
 
-    @for $i from 1 through 20 {
+    @for $i from 1 through 50 {
         &:nth-child(#{$i}) {
             $delay: random(9999) + 0ms;
-            top: calc(50% - #{random(800) - 200px});
-            left: calc(50% - #{random(600) + 0px});
+            top: calc(50% - #{random(2000) - 1000px});
+            left: calc(50% - #{random(3000) - 1500px});
             animation-delay: $delay;
-            // opacity: random(50) / 100 + 0.5;
+            opacity: random(15) / 100 + 0.125;
 
             &::before,
             &::after {

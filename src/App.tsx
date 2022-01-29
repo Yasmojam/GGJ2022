@@ -3,6 +3,9 @@ import "./App.css";
 import { GameContext, GameProvider } from "./context/GameContext";
 import Link from "./components/Link";
 import NarrativeText from "./components/NarrativeText";
+import BackgroundImage from "./components/BackgroundImage";
+
+import binary from "./assets/art/backgrounds/single.png";
 
 function App() {
 
@@ -12,14 +15,14 @@ function App() {
   return (
       <div className="App">
         <div className="night">
-          <div className="shooting_star"></div>
-          <div className="shooting_star"></div>
-          <div className="shooting_star"></div>
-          <div className="shooting_star"></div>
-          <div className="shooting_star"></div>
-          <div className="shooting_star"></div>
-          <div className="shooting_star"></div>
+          {[...Array(30).keys()].map(_ =>
+            <div className="shooting_star"></div>
+          )}
         </div>
+
+        <BackgroundImage
+          src={binary}
+        />
 
 
         <NarrativeText text={gameState.currentPassage?.text} />
