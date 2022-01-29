@@ -1,6 +1,42 @@
+@use "defaults";
+
 .NarrativeText {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1rem 4rem;
+}
+
+
+.tooltip {
+  color: defaults.$link-color;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tooltip:hover {
+  color: defaults.$link-hover-color;
+}
+
+.tooltip-overlay {
+  // background-color: black;
+}
+
+.rc-tooltip {
+  opacity: 1 !important;
+}
+
+.rc-tooltip-inner {
+  // background-color:  !important;
+  font-size: 1.75rem;
+  line-height: normal;
+  border-radius: 8px !important;
+  text-align: center !important;
+  background-color: #222 !important;
+  // border: none !important;
+  color: white !important;
+  // font-weight: bold;
+  min-height: none;
+  min-width: none;
+  max-width: 25rem;
 }

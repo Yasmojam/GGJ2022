@@ -11,6 +11,17 @@ function App() {
 
   return (
       <div className="App">
+        <div className="night">
+          <div className="shooting_star"></div>
+          <div className="shooting_star"></div>
+          <div className="shooting_star"></div>
+          <div className="shooting_star"></div>
+          <div className="shooting_star"></div>
+          <div className="shooting_star"></div>
+          <div className="shooting_star"></div>
+        </div>
+
+
         <NarrativeText text={gameState.currentPassage?.text} />
 
         <div className="LinksContainer">

@@ -18,10 +18,14 @@ const NarrativeText = ({ text }: NarrativeTextProps) => {
           a: (props: any) => (
             <Tooltip
               placement="top"
-              overlay={props.href}
+              overlay={
+                <div className="tooltip-overlay">
+                  {props.href.replace(/_/g, ' ')}
+                </div>
+              }
               arrowContent={<div className="rc-tooltip-arrow-inner"></div>}
             >
-              <a href="#">{props.children}</a>
+              <span className="tooltip">{props.children}</span>
             </Tooltip>
           ),
         }}

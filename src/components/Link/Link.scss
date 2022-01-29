@@ -5,8 +5,9 @@
   justify-content: center;
   font-family: "Splendid66";
   cursor: pointer;
-  color: #00b7ff;
+  color: defaults.$link-color;
   font-size: larger;
+  font-weight: bold;
   padding: .25rem .5rem;
 }
 
@@ -17,5 +18,5 @@
 }
 
 .Link:hover {
-  color: #a2e5ff;
+  color: defaults.$link-hover-color;
 }
