@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
-import { getLocalStorage, setLocalStorage } from "../local storage/functions";
+import { getLocalStorage, setLocalStorage } from "../localStorage/functions";
 import StoryManager from "../twison/StoryManager";
 
 interface IContext {
