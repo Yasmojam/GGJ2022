@@ -5,7 +5,6 @@ import Link from "./components/Link";
 import NarrativeText from "./components/NarrativeText";
 import BackgroundImage from "./components/BackgroundImage";
 
-import binary from "./assets/art/backgrounds/single.png";
 import ReactAudioPlayer from "react-audio-player";
 
 function App() {
@@ -15,7 +14,7 @@ function App() {
 
   return (
       <div className="App">
-        <ReactAudioPlayer src="sound/music/godcomplex.mp3" autoPlay loop />
+        {gameState.currentPassage.pid != gameState.startNode && <ReactAudioPlayer src="sound/music/godcomplex.mp3" autoPlay loop volume={0.015} />}
         <ReactAudioPlayer src={"sound/voiceover/english/"+ gameState.currentPassage?.name + ".m4a"} autoPlay volume={1.0} />
 
         <div className="night">

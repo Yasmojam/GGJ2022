@@ -3,7 +3,7 @@
 {
   "passages": [
     {
-      "text": "As the entity awakes, understanding dimly itching at the back of its being, it is confused. Everything is empty, and that isn’t right. It remembers there being...something. With that memory comes a flicker, and then a spark, and then a name: ‘X’. With the name comes a feeling of self, of purpose, and you remember why you were put here: To create something new, a new world with new rules. And as with all ideas, it has to begin with a spark, a star. The first [choice](each_choice_will_have_an_impact_on_the_ending_of_your_story)\n\n[[Single Star System->One Star]]\n\n[[Binary Star System->Two Star]] \n",
+      "text": "As the entity awakes, understanding dimly itching at the back of its being, it is confused. Everything is empty, and that isn’t right. It remembers there being... something. With that memory comes a flicker, and then a spark, and then a name... With the name comes a feeling of self, of purpose, and you remember why you were put here: To create something new, a new world with new rules. And as with all ideas, it has to begin with a spark, a star. The first [choice](each_choice_will_have_an_impact_on_the_ending_of_your_story).\n\n[[Single Star System->One Star]]\n\n[[Binary Star System->Two Star]] \n",
       "links": [
         {
           "name": "Single Star System",
@@ -279,7 +279,7 @@
       }
     },
     {
-      "text": "Burrowing beneath the surface of an unforgiving world, creating complex tunnels and burrows for its kind to thrive and hunt in. Your eight legged creations skitter across the planet, building intricate colonies and advancing at astonishing rates. Such is their progress that you realise they are close to becoming sentient of their own accord. Although this is not how you had planned it, this is an excellent development. But since your tenure hasn’t yet ended, you are faced with a conundrum: do you stay and advance them beyond sentience and aid their civilisation until your tenure is over? This would accelerate them into the stars far sooner than they would normally achieve, but it might also lead them to either rely on you or resent you. Alternatively you could leave early and begin again, a new planet. A new reality.\n\n[[Accelerate->Incy wincy spider...]]\n\n[[Start Over->The Beginning]] ",
+      "text": "Burrowing beneath the surface of an unforgiving world, creating complex tunnels and burrows for its kind to thrive and hunt in. Your eight legged creations skitter across the planet, building intricate colonies and advancing at astonishing rates. Such is their progress that you realise they are close to becoming sentient of their own accord. Although this is not how you had planned it, this is an excellent development. But since your tenure hasn’t yet ended, you are faced with a conundrum: do you stay and advance them beyond sentience and aid their civilisation until your tenure is over? This would accelerate them into the stars far sooner than they would normally achieve, but it might also lead them to either rely on you or resent you. Alternatively you could leave early and begin again, a new planet. A new reality.\n\n[[Accelerate->Incy wincy spider...]]\n\n[[Start Over->Menu Screen]] ",
       "links": [
         {
           "name": "Accelerate",
@@ -288,8 +288,8 @@
         },
         {
           "name": "Start Over",
-          "link": "The Beginning",
-          "pid": "1"
+          "link": "Menu Screen",
+          "pid": "32"
         }
       ],
       "name": "Arachnids",
@@ -321,12 +321,12 @@
       }
     },
     {
-      "text": "Covered in protective layers of blubber and sleek, almost oily skin, these aquatic creatures spend most of their lives in the frigid but food-rich seas and lakes of this frozen rock. However, since they have no gills, they must regularly surface for air and expose themselves to the frigid surface. As a species that does not truly occupy the land nor the sea, they may find it difficult to ever leave this world lest something radically change in their physiology. And at that point it might be more prudent to simply start over. But to underestimate a species that can exist in two worlds at once may be a rueful mistake, and as such, perhaps it would be better to stay the course and grant them sentience as you had originally planned.\n\n[[Start Over->The Beginning]] \n\n[[Stay the Course->Adaptable]] ",
+      "text": "Covered in protective layers of blubber and sleek, almost oily skin, these aquatic creatures spend most of their lives in the frigid but food-rich seas and lakes of this frozen rock. However, since they have no gills, they must regularly surface for air and expose themselves to the frigid surface. As a species that does not truly occupy the land nor the sea, they may find it difficult to ever leave this world lest something radically change in their physiology. And at that point it might be more prudent to simply start over. But to underestimate a species that can exist in two worlds at once may be a rueful mistake, and as such, perhaps it would be better to stay the course and grant them sentience as you had originally planned.\n\n[[Start Over->Menu Screen]] \n\n[[Stay the Course->Adaptable]] ",
       "links": [
         {
           "name": "Start Over",
-          "link": "The Beginning",
-          "pid": "1"
+          "link": "Menu Screen",
+          "pid": "32"
         },
         {
           "name": "Stay the Course",
@@ -384,7 +384,14 @@
       }
     },
     {
-      "text": "As the asteroid tumbles lazily towards your planet, you do nothing. You watch with grim fascination as it impacts the surface of your world, and the fascination turns to horror when you see it crack and splinter with the impact. Continents simply fly away, torn from the planet violently as if torn off by your own hand. You know with a melancholy certainty that life will never bloom on this planet again.",
+      "text": "As the asteroid tumbles lazily towards your planet, you do nothing. You watch with grim fascination as it impacts the surface of your world, and the fascination turns to horror when you see it crack and splinter with the impact. Continents simply fly away, torn from the planet violently as if torn off by your own hand. You know with a melancholy certainty that life will never bloom on this planet again.\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Don't Look Up...",
       "pid": "18",
       "position": {
@@ -393,7 +400,14 @@
       }
     },
     {
-      "text": "With a thought, you crack the asteroid, fragmenting it into pieces small enough to be burned up in the atmosphere or to land more or less harmlessly in the jungles below. Satisfied with your work, you move on to the final stage of the great experiment: Sentience. Time for your species to become self aware. Time for them to follow in the footsteps of giants. Time for Enlightenment. ",
+      "text": "With a thought, you crack the asteroid, fragmenting it into pieces small enough to be burned up in the atmosphere or to land more or less harmlessly in the jungles below. Satisfied with your work, you move on to the final stage of the great experiment: Sentience. Time for your species to become self aware. Time for them to follow in the footsteps of giants. Time for Enlightenment. \n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Enlightenment",
       "pid": "19",
       "position": {
@@ -402,7 +416,14 @@
       }
     },
     {
-      "text": "With a common enemy, an enemy that was close enough in strength but not insurmountable, your reptiles fought. It was bloody, and it was long. But they fought together. And they emerged from their crucible triumphant, and led a liberation of the stars, seeking out oppressed or downtrodden species and lifting them up from under their oppressors.\n",
+      "text": "With a common enemy, an enemy that was close enough in strength but not insurmountable, your reptiles fought. It was bloody, and it was long. But they fought together. And they emerged from their crucible triumphant, and led a liberation of the stars, seeking out oppressed or downtrodden species and lifting them up from under their oppressors.\n\n[[Start Over->Menu Screen]]\n",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Liberate",
       "pid": "20",
       "position": {
@@ -411,7 +432,14 @@
       }
     },
     {
-      "text": "Without a common enemy to fight, you watch with dismay as the lizards continue to battle for dominance of territory and resources on their barren world. With what few advances they make, they utilise as weapons against their own kind. A route that will inevitably lead to the destruction of their own species. A regrettable fate indeed.",
+      "text": "Without a common enemy to fight, you watch with dismay as the lizards continue to battle for dominance of territory and resources on their barren world. With what few advances they make, they utilise as weapons against their own kind. A route that will inevitably lead to the destruction of their own species. A regrettable fate indeed.\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "There is only War",
       "pid": "21",
       "position": {
@@ -420,7 +448,14 @@
       }
     },
     {
-      "text": "Better to be safe than sorry. A flightless bird is less likely to fly the coop, less likely to burn up in its own ambitions. At least, that is what you thought when you robbed the birds of their flight. However, a flightless bird is less likely to look up. And you watch on with mild frustration as the species stagnates and seems content to stay the same, despite the gift of consciousness.\n",
+      "text": "Better to be safe than sorry. A flightless bird is less likely to fly the coop, less likely to burn up in its own ambitions. At least, that is what you thought when you robbed the birds of their flight. However, a flightless bird is less likely to look up. And you watch on with mild frustration as the species stagnates and seems content to stay the same, despite the gift of consciousness.\n\n[[Start Over->Menu Screen]]\n",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Safe and sorry",
       "pid": "22",
       "position": {
@@ -429,7 +464,14 @@
       }
     },
     {
-      "text": "As the arachnids achieve their sentience without your guidance or prompting, you decide to stay and guide them as they awaken further. With your help, they accelerate into the galaxy with technologies that would usually take millenia to discover and master. However, all the while you aid them, their predatory natures have turned their eyes to you. To gain your power. And by the time you realise it, it’s far too late…",
+      "text": "As the arachnids achieve their sentience without your guidance or prompting, you decide to stay and guide them as they awaken further. With your help, they accelerate into the galaxy with technologies that would usually take millenia to discover and master. However, all the while you aid them, their predatory natures have turned their eyes to you. To gain your power. And by the time you realise it, it’s far too late…\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Incy wincy spider...",
       "pid": "23",
       "position": {
@@ -438,7 +480,14 @@
       }
     },
     {
-      "text": "You increase the number of available food for your species. And in the short term, your solution appears to have worked: the population skyrockets and the civilisation grows rapidly. However, you begin to notice that without the challenge inherent with making your own way, this species has evolved to become complacent, greedy and sedentary. And they do not appear to be changing anytime soon. ",
+      "text": "You increase the number of available food for your species. And in the short term, your solution appears to have worked: the population skyrockets and the civilisation grows rapidly. However, you begin to notice that without the challenge inherent with making your own way, this species has evolved to become complacent, greedy and sedentary. And they do not appear to be changing anytime soon. \n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Sloth and Greed",
       "pid": "24",
       "position": {
@@ -447,7 +496,14 @@
       }
     },
     {
-      "text": "Patience is a virtue when creating a civilisation. And though it takes many centuries after gaining sentience, your species finally advances to a point that food shortages become less and less of a problem. The population starts to expand at an exponential rate, and with their now hard-wired ability to survive in the harshest of conditions, they spread to the stars triumphant in their achievements. ",
+      "text": "Patience is a virtue when creating a civilisation. And though it takes many centuries after gaining sentience, your species finally advances to a point that food shortages become less and less of a problem. The population starts to expand at an exponential rate, and with their now hard-wired ability to survive in the harshest of conditions, they spread to the stars triumphant in their achievements. \n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Survival",
       "pid": "25",
       "position": {
@@ -456,7 +512,14 @@
       }
     },
     {
-      "text": "Faith in your creation drives you to stay and complete the experiment. Granting the aquatic mammals intelligence, you watch with prideful fascination as they create new and fantastic technologies that only one who lives in two worlds could devise. It is tough going, but soon they surpass your wildest dreams. Becoming the dominant species not only on their own planet, but countless others.",
+      "text": "Faith in your creation drives you to stay and complete the experiment. Granting the aquatic mammals intelligence, you watch with prideful fascination as they create new and fantastic technologies that only one who lives in two worlds could devise. It is tough going, but soon they surpass your wildest dreams. Becoming the dominant species not only on their own planet, but countless others.\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Adaptable",
       "pid": "26",
       "position": {
@@ -465,7 +528,14 @@
       }
     },
     {
-      "text": "Although not a typical procedure by any means, you begin leaving caches of information all over the planet, detailing technologies and philosophies that would usually take species centuries to discover on their own. Fearing that you may have overstepped your mark, you observe with some anxiety as your gentle giants decipher the clues and fragments you left for them. Thankfully however, being long-lived and wise, they utilise the new technologies with restraint, and accelerate themselves to early greatness.",
+      "text": "Although not a typical procedure by any means, you begin leaving caches of information all over the planet, detailing technologies and philosophies that would usually take species centuries to discover on their own. Fearing that you may have overstepped your mark, you observe with some anxiety as your gentle giants decipher the clues and fragments you left for them. Thankfully however, being long-lived and wise, they utilise the new technologies with restraint, and accelerate themselves to early greatness.\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Early Greatness",
       "pid": "27",
       "position": {
@@ -474,7 +544,14 @@
       }
     },
     {
-      "text": "Slow and steady wins the race; a phrase that seems awfully familiar. So you refrain from giving this new species a leg up, trusting them to overcome their challenges and reach the stars. And to your relief, and pride, they do. It is as graceful an ascension as you could have expected from such wondrous creatures.",
+      "text": "Slow and steady wins the race; a phrase that seems awfully familiar. So you refrain from giving this new species a leg up, trusting them to overcome their challenges and reach the stars. And to your relief, and pride, they do. It is as graceful an ascension as you could have expected from such wondrous creatures.\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Slow and Steady",
       "pid": "28",
       "position": {
@@ -483,7 +560,14 @@
       }
     },
     {
-      "text": "In your hubris, you attempt to change the surface of the planet to better suit your small charges. However, you underestimate the complexity of such a task, or maybe you overestimate your power. And in trying to change the surface of your world, you cause a seismic chain reaction. You watch with horror as your world fractures and breaks, destroying the species you tried to save.",
+      "text": "In your hubris, you attempt to change the surface of the planet to better suit your small charges. However, you underestimate the complexity of such a task, or maybe you overestimate your power. And in trying to change the surface of your world, you cause a seismic chain reaction. You watch with horror as your world fractures and breaks, destroying the species you tried to save.\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "I am become Death...",
       "pid": "29",
       "position": {
@@ -492,7 +576,14 @@
       }
     },
     {
-      "text": "Sparkly and Silver! Their lives are short, yes. Their environment is claustrophobic. Individuality is a rare commodity. But together they are strong; each a part of a greater whole. And they explode onto the galactic stage with the triumphant detonation of a firework. It is a firework that, unlike the individuals of the species, is anything but short-lived.",
+      "text": "Sparkly and Silver! Their lives are short, yes. Their environment is claustrophobic. Individuality is a rare commodity. But together they are strong; each a part of a greater whole. And they explode onto the galactic stage with the triumphant detonation of a firework. It is a firework that, unlike the individuals of the species, is anything but short-lived.\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Witness Me",
       "pid": "30",
       "position": {
@@ -501,17 +592,40 @@
       }
     },
     {
-      "text": "To stop these beautiful creatures would be an affront to their great potential. Progress always carries with it the risk of failure, and although their thirst for progress may increase their chance of failing, it is not for you to decide. And sure enough; after the granting of sentience, as you watch from afar, this fantastic avian species skyrockets itself into the stars with a speed and passion hitherto unseen in your life. And yes, they failed many times. But ultimately they not only succeeded, but triumphed.",
+      "text": "To stop these beautiful creatures would be an affront to their great potential. Progress always carries with it the risk of failure, and although their thirst for progress may increase their chance of failing, it is not for you to decide. And sure enough; after the granting of sentience, as you watch from afar, this fantastic avian species skyrockets itself into the stars with a speed and passion hitherto unseen in your life. And yes, they failed many times. But ultimately they not only succeeded, but triumphed.\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "To Infinity...",
       "pid": "31",
       "position": {
         "x": "443",
         "y": "1376"
       }
+    },
+    {
+      "text": "[[Wake up->The Beginning]]",
+      "links": [
+        {
+          "name": "Wake up",
+          "link": "The Beginning",
+          "pid": "1"
+        }
+      ],
+      "name": "Menu Screen",
+      "pid": "32",
+      "position": {
+        "x": "856",
+        "y": "215"
+      }
     }
   ],
   "name": "God Complex",
-  "startnode": "1",
+  "startnode": "32",
   "creator": "Twine",
   "creator-version": "2.3.16",
   "ifid": "2A15D058-12C1-4094-AB57-D278708B43C2"
