@@ -5,7 +5,6 @@ import Link from "./components/Link";
 import NarrativeText from "./components/NarrativeText";
 import BackgroundImage from "./components/BackgroundImage";
 
-import binary from "./assets/art/backgrounds/single.png";
 
 function App() {
 
@@ -21,9 +20,8 @@ function App() {
         </div>
 
         <BackgroundImage
-          src={binary}
+          src={`./art/backgrounds/${gameState.backgroundImage}.png`}
         />
-
 
         <NarrativeText text={gameState.currentPassage?.text} />
 
