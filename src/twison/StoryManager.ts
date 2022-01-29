@@ -73,6 +73,10 @@ class StoryManager {
   getCurrentPid(): string {
     return this.pidOrder[this.pidOrder.length - 1];
   }
+
+  getStartNode(): string {
+    return this.story.startnode;
+  }
 }
 
 export default StoryManager;
