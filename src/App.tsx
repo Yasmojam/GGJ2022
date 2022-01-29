@@ -25,7 +25,7 @@ function App() {
         </div>
 
         <BackgroundImage
-          src={binary}
+          src={`./art/backgrounds/${gameState.backgroundImage}.png`}
         />
 
         <NarrativeText text={gameState.currentPassage?.text} />
