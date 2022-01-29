@@ -4,6 +4,7 @@ import { GameContext } from "./context/GameContext";
 import Link from "./components/Link";
 import NarrativeText from "./components/NarrativeText";
 import BackgroundImage from "./components/BackgroundImage";
+import { AnimateOnChange } from 'react-animation';
 
 import ReactAudioPlayer from "react-audio-player";
 
@@ -27,15 +28,21 @@ function App() {
           src={`./art/backgrounds/${gameState.backgroundImage}.png`}
         />
 
-        <NarrativeText text={gameState.currentPassage?.text} />
+        <AnimateOnChange
+            animationIn="fadeIn"
+            animationOut="fadeOut"
+            durationOut={500}
+        >
+          <NarrativeText text={gameState.currentPassage?.text} />
 
-        <div className="LinksContainer">
-          {options.map((option:Link, index) => {
-            return(
-              <Link text={option.name} nextPassageId={option.pid} key={index} />
-            )
-          })}
-        </div>
+          <div className="LinksContainer">
+            {options.map((option:Link, index) => {
+              return(
+                <Link text={option.name} nextPassageId={option.pid} key={index} />
+              )
+            })}
+          </div>
+        </AnimateOnChange>
       </div>
   );
 }
