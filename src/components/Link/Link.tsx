@@ -11,7 +11,7 @@ const Link = ({ text, nextPassageId }: ButtonProps) => {
   const gameState = useContext(GameContext);
 
   return (
-    <div className="Container" onClick={() => {gameState.goToPassageId(nextPassageId)}}>
+    <div className="Link" onClick={() => {gameState.goToPassageId(nextPassageId)}}>
       {text}
     </div>
   );
