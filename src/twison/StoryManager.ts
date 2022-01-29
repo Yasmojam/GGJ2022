@@ -21,7 +21,6 @@ class StoryManager {
     copy.passages.forEach((passage: any) => {
       // Process text
       passage.text = passage.text.replace(LINK_REGEX, "");
-      passage.text = passage.text.split("\n");
 
       // discard unless stuff
       passage.links?.forEach((link: any) => delete link.link);
@@ -47,18 +46,6 @@ class StoryManager {
       this.pidOrder.pop();
     }
     return this.getCurrentPid();
-  }
-
-  getTextLines(): string[] {
-    return this.currentPassage().text;
-  }
-
-  getLinks(): Link[] {
-    return this.currentPassage().links || [];
-  }
-
-  getChapterTitle(): string {
-    return this.currentPassage().name;
   }
 
   getCurrentPid(): string {
