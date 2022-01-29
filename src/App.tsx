@@ -11,15 +11,15 @@ function App() {
 
   return (
       <div className="App">
-        <header className="App-header">
-          <NarrativeText text={gameState.currentPassage?.text} />
+        <NarrativeText text={gameState.currentPassage?.text} />
 
+        <div className="LinksContainer">
           {options.map((option:Link, index) => {
             return(
               <Link text={option.name} nextPassageId={option.pid} key={index}/>
             )
           })}
-        </header>
+        </div>
       </div>
   );
 }
