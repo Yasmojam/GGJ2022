@@ -5,7 +5,7 @@ type Link = {
 };
 
 type Passage = {
-  text: string[];
+  text: string;
   links?: Link[];
   name: string;
   pid: string;
