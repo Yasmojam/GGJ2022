@@ -1,6 +1,6 @@
-import React, {useContext, useRef} from "react";
+import React, {useContext} from "react";
 import "./App.css";
-import { GameContext, GameProvider } from "./context/GameContext";
+import { GameContext } from "./context/GameContext";
 import Link from "./components/Link";
 import NarrativeText from "./components/NarrativeText";
 import BackgroundImage from "./components/BackgroundImage";
