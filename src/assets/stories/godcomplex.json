@@ -1,7 +1,7 @@
 {
   "passages": [
     {
-      "text": "As the entity awakes, understanding dimly itching at the back of its being, it is confused. Everything is empty, and that isn’t right. It remembers there being…..something. With that memory comes a flicker, and then a spark, and then a name: ‘X’. With the name comes a feeling of self, of purpose, and you remember why you were put here: To create something new, a new world with new rules. And as  with all ideas, it has to begin with a spark, a star. The first choice.\n\n[[Single Star System->One Star]]\n\n[[Binary Star System->Two Star]] \n",
+      "text": "As the entity awakes, understanding dimly itching at the back of its being, it is confused. Everything is empty, and that isn’t right. It remembers there being...something. With that memory comes a flicker, and then a spark, and then a name: ‘X’. With the name comes a feeling of self, of purpose, and you remember why you were put here: To create something new, a new world with new rules. And as with all ideas, it has to begin with a spark, a star. The first [choice](each_choice_will_have_an_impact_on_the_ending_of_your_story)\n\n[[Single Star System->One Star]]\n\n[[Binary Star System->Two Star]] \n",
       "links": [
         {
           "name": "Single Star System",
@@ -18,11 +18,11 @@
       "pid": "1",
       "position": {
         "x": "860",
-        "y": "368.5"
+        "y": "369.5"
       }
     },
     {
-      "text": "A simple choice is often the most elegant. So you fuse the necessary elements together to create the burning furnace of a single star. The foundation now complete, the scenery must be added. You lay the background carpeting of stars and galaxies that will be visible from your future world. And then the largely decorative planets in their various orbits to furnish the solar system.With this complete, you turn your mind to the object of your existence: The planet you must make. Large or small? A larger planet will have more room for its species to grow and prosper, more resources. However the larger gravitational pull could cause problems down the line with rogue {{celestial bodies->Meteors, comets etc}}. Smaller would lessen the likelihood of such an event but would limit the space and resources for the inhabitants of your planet. \n\n\n[[Large Planet->Large Planet]]\n\n[[Small Planet->Small Planet]]\n",
+      "text": "A simple choice is often the most elegant. So you fuse the necessary elements together to create the burning furnace of a single star. The foundation now complete, the scenery must be added. You lay the background carpeting of stars and galaxies that will be visible from your future world. And then the largely decorative planets in their various orbits to furnish the solar system. With this complete, you turn your mind to the object of your existence: The planet you must make. Large or small? A larger planet will have more room for its species to grow and prosper, more resources. However, the larger gravitational pull could cause problems down the line with rogue [celestial bodies](Meteors,_comets_etc.) Smaller would lessen the likelihood of such an event but would limit the space and resources for the inhabitants of your planet. \n\n\n[[Large Planet->Large Planet]]\n\n[[Small Planet->Small Planet]]\n",
       "links": [
         {
           "name": "Large Planet",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "text": "A single star, although a classic, has been done before. Time for innovation. A {{Binary system->Binary stars are two stars orbiting a common center of mass}}. Two stars, two Suns, to gaze up at. The foundation now complete, the scenery must be added. You lay the background carpeting of stars and galaxies that will be visible from your future world. And then the largely decorative planets in their various orbits to furnish the solar system.With this complete, you turn your mind to the object of your existence: The planet you must make. Large or small? A larger planet will have more room for its species to grow and prosper, more resources. However the larger gravitational pull could cause problems down the line with rogue celestial bodies. Smaller would lessen the likelihood of such an event but would limit the space and resources for the inhabitants of your planet.\n\n[[Large Planet->Large Planet]]\n\n[[Small Planet->Small Planet]] \n",
+      "text": "A single star, although a classic, has been done before. Time for innovation. A [Binary System](Binary_stars_are_two_stars_orbiting_a_common_center_of_mass). Two stars, two Suns, to gaze up at. The foundation now complete, the scenery must be added. You lay the background carpeting of stars and galaxies that will be visible from your future world. And then the largely decorative planets in their various orbits to furnish the solar system. With this complete, you turn your mind to the object of your existence: The planet you must make. Large or small? A larger planet will have more room for its species to grow and prosper, more resources. However, the larger gravitational pull could cause problems down the line with rogue [celestial bodies](Asteroids,_meteors,_etc). Smaller would lessen the likelihood of such an event but would limit the space and resources for the inhabitants of your planet.\n\n[[Large Planet->Large Planet]]\n\n[[Small Planet->Small Planet]] \n",
       "links": [
         {
           "name": "Large Planet",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "text": "Concentrating once more, you pull in the discharge of particles from the creation of the furnishings of your burgeoning reality and compact them. Piling together the rock and metal and dust until you have created a large and cratered spheroid. Grey and dull, illuminated by your stellar engine, it pulls at you. A world like this could be a {{Gaia->Gaia was the Greek goddess of Earth, mother of all life}}, verdant  green, teeming with life. A world like this would be more comfortable to inhabit, but more difficult to develop. Or it could be a relatively barren desert. Where life has to fight against the planet to survive. Life would be harsh. It would be unfair. But the species that evolve here would be hardy, strong.\n\n[[Gaia World->Gaia World]]\n\n[[Desert World->Desert World]]",
+      "text": "Concentrating once more, you pull in the discharge of particles from the creation of the furnishings of your burgeoning reality and compact them. Piling together the rock and metal and dust until you have created a large and cratered spheroid. Grey and dull, illuminated by your centrepiece, it pulls at you. A world like this could be a [Gaia](Gaia_was_the_Greek_goddess_of_Earth,_mother_of_all_life), verdant  green, teeming with life. A world like this would be more comfortable to inhabit, but more difficult to develop. Or it could be a relatively barren desert, where life has to fight against the planet to survive. Life would be harsh. It would be unfair. But the species that evolve here would be hardy, strong.\n\n[[Gaia World->Gaia World]]\n\n[[Desert World->Desert World]]",
       "links": [
         {
           "name": "Gaia World",
@@ -81,11 +81,11 @@
       "pid": "4",
       "position": {
         "x": "684",
-        "y": "674.5"
+        "y": "673.5"
       }
     },
     {
-      "text": "Concentrating once more, you pull in the discharge of particles from the creation of the furnishings of your burgeoning reality and compact them. Piling together the rock and metal and dust until you have created a small but dense planet. This planet is mostly smooth, with small channels and cracks breaking up the otherwise featureless landscape. With this world you see visions of two possibilities. A cold and unforgiving {{Tundra->tundra is a type of biome where the tree growth is hindered by low temperatures and short growing seasons}} World, or a warm and plentiful Ocean World. The former would condition the inhabitants to be hardy, but sparse. The latter, a plentiful aquatic species. However one that might find difficulty in utilising resources. \n\n[[Tundra World->Tundra World]]\n\n[[Aquatic World->Aquatic World]]",
+      "text": "Concentrating once more, you pull in the discharge of particles from the creation of the furnishings of your burgeoning reality and compact them. Piling together the rock and metal and dust until you have created a small but dense planet. This planet is mostly smooth, with small channels and cracks breaking up the otherwise featureless landscape. With this world you see visions of two possibilities. A cold and unforgiving [Tundra](tundra_is_a_type_of_biome_where_the_tree_growth_is_hindered_by_low_temperatures_and_short_growing_seasons) World, or a warm and plentiful Ocean World. The former would condition the inhabitants to be hardy, but sparse. The latter, a plentiful aquatic species. However, one that might find difficulty in utilising resources. \n\n[[Tundra World->Tundra World]]\n\n[[Aquatic World->Aquatic World]]",
       "links": [
         {
           "name": "Tundra World",
@@ -106,7 +106,7 @@
       }
     },
     {
-      "text": "This is seeding a world in the most literal of senses: carpeting the rock with soil, loam and vegetation. Firstly the atmosphere, rich in Carbon Dioxide and Nitrogen, essential for plant life. Your planet rotates around the system several hundred times before your task is done. And as it nears completion you take a moment to admire your handiwork. Luscious, thick forests and jungles cover the planet from pole to pole. Rare clearings give sight to the rivers and lakes that span the world and provide essential water to the multitudes of plants that now call this rock home. At the edge of your perception you sense an asteroid tumbling through space, bringing you from your reverie. It is time to choose what kind animal life will begin to roam these forests.\n\n[[Mammals->Mammals]]\n\n[[Birds->Birds]]",
+      "text": "This is seeding a world in the most literal of senses: carpeting the rock with soil, [loam](a_fertile_soil_of_clay_and_sand_containing_humus) and vegetation. You begin with the atmosphere, rich in Carbon Dioxide and Nitrogen, essential for plant life. Your planet rotates around the system several hundred times before your task is done. And as it nears completion you take a moment to admire your handiwork. Luscious, thick forests and jungles cover the planet from pole to pole. Rare clearings give sight to the rivers and lakes that span the world and provide essential water to the multitudes of plants that now call this rock home. At the edge of your perception you sense an asteroid tumbling through space, bringing you from your reverie. It is time to choose what kind of animal life will begin to roam these forests.\n\n[[Mammals->Mammals]]\n\n[[Birds->Birds]]",
       "links": [
         {
           "name": "Mammals",
@@ -122,12 +122,12 @@
       "name": "Gaia World",
       "pid": "6",
       "position": {
-        "x": "514",
-        "y": "805.5"
+        "x": "515",
+        "y": "803.5"
       }
     },
     {
-      "text": "It needs to be dry. It needs to be arid. The atmosphere is thin, the ozone layer similarly so. A carpet of silicon and powdered rock covers the rocky surface. Many of  the craters become dunes, as gentle winds spread and shift the sands across your new creation. What little vegetation grows here is tough and efficient , maximising it’s space and energy usage for survival. Such a world will require a hardy animal species to thrive here. One that will not mind the heat and the light. Or maybe it will thrive beneath the surface, coming out only when necessary.\n\n[[Lizards->Lizards]]\n\n[[Arachnids->Arachnids]]",
+      "text": "It needs to be dry. It needs to be arid. The atmosphere is thin, the ozone layer similarly so. A carpet of silicon and powdered rock covers the blemished surface. Many of the craters become dunes, as gentle winds spread and shift the sands across your new creation. What little vegetation grows here is tough and efficient, maximising its space and energy usage for survival. Such a world will require a hardy animal species to thrive here. One that will not mind the heat and the light. Or maybe it will thrive beneath the surface, coming out only when necessary.\n\n[[Lizards->Lizards]]\n\n[[Arachnids->Arachnids]]",
       "links": [
         {
           "name": "Lizards",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "text": "Placing your new world in the cooler edges of the habitable zone, you create a dry atmosphere with a middling ozone layer. And proceed to cover the planet in snow and ice. The forests of this world will keep their leaves all year round, and will be resistant to the cold weather and harsh conditions. In the warmer seasons, some of the lakes and rivers may thaw and some of the snow will melt, but these will be brief respites in an otherwise whiteout world. The creatures of this world will have to brave the cold with strength, they will have to conserve their energy and maybe even go into extended periods of hibernation. But will they do this on land? Or Underwater? Or Perhaps even both?  \n\n[[Mammals->MammalsT]]\n\n[[Aquatic Mammals->MammalsAT]]",
+      "text": "Placing your new world in the cooler edges of the habitable zone, you create a dry atmosphere with a middling ozone layer, and proceed to cover the planet in snow and ice. The forests of this world will keep their leaves all year round, and will be resistant to the cold weather and harsh conditions. In the warmer seasons, some of the lakes and rivers may thaw and some of the snow will melt, but these will be brief respites in an otherwise [whiteout](a_surface_weather_condition_in_a_snow-covered_area_in_which_no_object_casts_a_shadow,_the_horizon_cannot_be_seen,_and_only_dark_objects_are_discernible) world. The creatures of this world will have to brave the cold with strength. They will have to conserve their energy and maybe even go into extended periods of hibernation. But will they do this on land? Or Underwater? Or Perhaps even both?  \n\n[[Mammals->MammalsT]]\n\n[[Aquatic Mammals->MammalsAT]]",
       "links": [
         {
           "name": "Mammals",
@@ -169,7 +169,7 @@
       }
     },
     {
-      "text": "An Ocean world, where the trenches and cracks of this small world will be covered by leagues of water. The planet will gain considerable size compared to if you were to seed the world with land based terrain.First a strong atmosphere of oxygen and nitrogen, coupled with a relatively thin ozone layer to ensure that the oceans are temperate, but not boiling. Compared to the other projects you could have undertaken, this is perhaps the most simple after the atmosphere is complete. You cover the planet in fathoms and fathoms of water. In the shallower parts you lay vast coral reefs and ocean plant life, in the deepest trenches are volcanic vents that spread helpful bacteria. The dominant species here will have to dominate either the shallows or the deeps to thrive, and as such size is the dominant factor. \n\n[[Big Fish->Big Fish]]\n\n[[Small Fish->Small Fish]]\n",
+      "text": "You craft an Ocean world, where the trenches and cracks of this small sphere will be covered by leagues of water. The planet will gain considerable size compared to if you were to seed the world with land-based terrain. You muster a strong atmosphere of Oxygen and Nitrogen, coupled with a relatively thin ozone layer to ensure that the oceans are temperate, but not boiling. Compared to the other projects you could have undertaken, this is perhaps the most simple after the atmosphere is complete. You cover the planet in fathoms and fathoms of water. In the shallower parts you lay vast coral reefs and ocean plant life and in the deepest trenches are volcanic vents that spread helpful bacteria. The dominant species here will have to rule either the shallows or the deeps to thrive, and as such size is the key factor. \n\n[[Big Fish->Big Fish]]\n\n[[Small Fish->Small Fish]]\n",
       "links": [
         {
           "name": "Big Fish",
@@ -190,11 +190,11 @@
       }
     },
     {
-      "text": "As the asteroid hurtles through the void, your consciousness becomes aware that it will impact with your creation should you not intervene. Thus you are presented with something of a dilemma; you know that if you do nothing, everything you have created thus far may perish, but from the ashes may rise something even more spectacular. But if you do use your infinite power to destroy the asteroid, you might release something worse onto your creation at a later date.\n\n[[Do Nothing->Ending1]]\n\n[[Destroy it->Enlightenment]]",
+      "text": "As the asteroid hurtles through the void, your consciousness becomes aware that it will impact with your creation should you not intervene. Thus you are presented with something of a dilemma; you know that if you do nothing, everything you have created thus far may perish, but from the ashes may rise something even more spectacular. But if you do use your infinite power to destroy the asteroid, you might release something worse onto your creation at a later date.\n\n[[Do Nothing->Don't Look Up...]]\n\n[[Destroy it->Enlightenment]]",
       "links": [
         {
           "name": "Do Nothing",
-          "link": "Ending1",
+          "link": "Don't Look Up...",
           "pid": "18"
         },
         {
@@ -211,11 +211,11 @@
       }
     },
     {
-      "text": "As the asteroid flies through your solar system, soaring like the avians you have painstakingly sculpted, you realise that a species such as this will always wish to soar higher and fly farther. Like an old fable that seems from a dream from a previous existence, you see an image of a boy flying too close to the Stellar Engine in the sky above and crash back to the ground in flames. A sudden pang of fear crashes through your consciousness like icy fire, and you wonder if flight is such a good idea. If you take that power away from your creation however, might that only encourage them to try harder to fly? \n\n[[Clip their Wings->Ending2]]\n\n[[Let them Soar->To Infinity...]] ",
+      "text": "As the asteroid flies through your solar system, soaring like the avians you have painstakingly sculpted, you realise that a species such as this will always wish to soar higher and fly farther. Like an old fable that seems from a dream from a previous existence, you see an image of a boy flying too close to the fire and light in the sky above and crash back to the ground in flames. A sudden pang of fear crashes through your consciousness like icy fire, and you wonder if flight is such a good idea. If you take that power away from your creation however, might that only encourage them to try harder to fly? \n\n[[Clip their Wings->Safe and sorry]]\n\n[[Let them Soar->To Infinity...]] ",
       "links": [
         {
           "name": "Clip their Wings",
-          "link": "Ending2",
+          "link": "Safe and sorry",
           "pid": "22"
         },
         {
@@ -232,32 +232,32 @@
       }
     },
     {
-      "text": "Hot world, cold blood. Scaled and low to the ground. Perfect for an arid world like this. Heightened senses of smell and taste as the eyes need to be protected from sand and light. This species will make the most of this world, and dominate the lesser species you seed it with for it to prey on, as the vegetation will not provide enough nutrients on its own. It occurs to you that such a predatory species might become warful, and likely to destroy themselves in fire and blood. On the other hand, if given a common cause, or a common enemy maybe they will band together in an unbreakable bond of camaraderie and forge a path to greater heights? Or maybe this enemy would simply wipe out your initial creation.\n\n[[Common Enemy->Conquer]]\n\n[[No Enemy->Ending3]]\n",
+      "text": "Hot world, cold blood. Scaled and low to the ground. Perfect for an arid world like this. Heightened senses of smell and taste as the eyes need to be protected from sand and light. This species will make the most of this world, and dominate the lesser species it will share the world with, as the vegetation will not provide enough nutrients on its own. It occurs to you that such a predatory species might become warful, and likely to destroy themselves in fire and blood. On the other hand, if given a common cause or a common enemy, maybe they will band together in an unbreakable bond of camaraderie and forge a path to greater heights? Or maybe this enemy would simply wipe out your initial creation.\n\n[[Common Enemy->Liberate]]\n\n[[No Enemy->There is only War]]\n",
       "links": [
         {
           "name": "Common Enemy",
-          "link": "Conquer",
+          "link": "Liberate",
           "pid": "20"
         },
         {
           "name": "No Enemy",
-          "link": "Ending3",
+          "link": "There is only War",
           "pid": "21"
         }
       ],
       "name": "Lizards",
       "pid": "12",
       "position": {
-        "x": "648",
-        "y": "964.5"
+        "x": "647",
+        "y": "962.5"
       }
     },
     {
-      "text": "Burrowing beneath the surface of an unforgiving world, creating complex tunnels and burrows for its kind to thrive and hunt in. Your eight legged creations skitter across the planet, building intricate colonies and advancing at astonishing rates. Such is their progress that you realise they are close to becoming sentient of their own accord. Although this is not how you had planned it, this is an excellent development. But since your tenure hasn’t yet ended, you are faced with a conundrum: do you stay and advance them beyond sentience and aid their civilisation until your tenure is over? This would accelerate them into the stars far sooner than they would normally achieve, but it might also lead them to either rely on you or resent you. Alternatively you could leave early and begin again, a new planet. A new reality.\n\n[[Accelerate->Ending4]]\n\n[[Start Over->The Beginning]] ",
+      "text": "Burrowing beneath the surface of an unforgiving world, creating complex tunnels and burrows for its kind to thrive and hunt in. Your eight legged creations skitter across the planet, building intricate colonies and advancing at astonishing rates. Such is their progress that you realise they are close to becoming sentient of their own accord. Although this is not how you had planned it, this is an excellent development. But since your tenure hasn’t yet ended, you are faced with a conundrum: do you stay and advance them beyond sentience and aid their civilisation until your tenure is over? This would accelerate them into the stars far sooner than they would normally achieve, but it might also lead them to either rely on you or resent you. Alternatively you could leave early and begin again, a new planet. A new reality.\n\n[[Accelerate->Incy wincy spider...]]\n\n[[Start Over->The Beginning]] ",
       "links": [
         {
           "name": "Accelerate",
-          "link": "Ending4",
+          "link": "Incy wincy spider...",
           "pid": "23"
         },
         {
@@ -274,11 +274,11 @@
       }
     },
     {
-      "text": "Thick Furred and furiously hot blooded, the creatures that roam the surface of this arctic landscape are large and ponderous. Only expending energy when necessary, making the most of every meal, true omnivores. In some ways they are the absolute apex predators, in others as docile as the lowliest prey. This duality of nature will serve them well once they reach sentience, provided there are enough of them to create societies. However due to the extremes of this world, the population is small and does not appear to be growing. If you interfere and create more food perhaps this will increase the population of your burgeoning charges? Or perhaps it will imbalance the system and lead to its downfall.\n\n[[Increase Food->Ending5]]\n\n[[Don't Interfere->Survival]]",
+      "text": "Thick-furred and furiously hot-blooded, the creatures that roam the surface of this arctic landscape are large and ponderous. Only expending energy when necessary, making the most of every meal: true omnivores. In some ways they are the absolute apex predators, in others as docile as the lowliest prey. This duality of nature will serve them well once they reach sentience, provided there are enough of them to create societies. However, due to the extremes of this world, the population is small and does not appear to be growing. If you interfere and create more food perhaps this will increase the population of your burgeoning charges. Or perhaps it will imbalance the system and lead to its downfall.\n\n[[Increase Food->Sloth and Greed]]\n\n[[Don't Interfere->Survival]]",
       "links": [
         {
           "name": "Increase Food",
-          "link": "Ending5",
+          "link": "Sloth and Greed",
           "pid": "24"
         },
         {
@@ -295,7 +295,7 @@
       }
     },
     {
-      "text": "Covered in protective layers of blubber and sleek almost oily skin, these aquatic creatures spend most of their lives in the frigid but food rich seas and lakes of this frozen rock. However since they have no gills, they must regularly surface for air and expose themselves to the frigid surface. As a species that does not truly occupy the land nor the sea, this is a species that may find it difficult to ever leave this world lest something radically change in their physiology. And at that point it might be more prudent to simply start over. But to underestimate a species that can exist in two worlds at once may be a rueful mistake, and as such perhaps it would be better to stay the course and grant them sentience as you had originally planned.\n\n[[Start Over->The Beginning]] \n\n[[Stay the Course->Adaptable]] ",
+      "text": "Covered in protective layers of blubber and sleek, almost oily skin, these aquatic creatures spend most of their lives in the frigid but food-rich seas and lakes of this frozen rock. However, since they have no gills, they must regularly surface for air and expose themselves to the frigid surface. As a species that does not truly occupy the land nor the sea, they may find it difficult to ever leave this world lest something radically change in their physiology. And at that point it might be more prudent to simply start over. But to underestimate a species that can exist in two worlds at once may be a rueful mistake, and as such, perhaps it would be better to stay the course and grant them sentience as you had originally planned.\n\n[[Start Over->The Beginning]] \n\n[[Stay the Course->Adaptable]] ",
       "links": [
         {
           "name": "Start Over",
@@ -316,7 +316,7 @@
       }
     },
     {
-      "text": "In the deep waters of the ocean, size matters. And thanks to the lower gravitational stresses afforded by buoyancy, you are able to create leviathans. Tremendously sized aquatic beasts drift through the ocean with a grace that belies their profiles. Tremendously long lived and hardy, you know these creatures will be among the wisest of creatures when they achieve sentience. However the slightly sedentary nature of their lives could lead them to be a slow developing race. One that perhaps could benefit from some prompting down the line. If you were to leave clues to spur advancements across the world and the immediate solar system, it could perhaps help them achieve a greatness they would otherwise not achieve. On the other hand, accelerating them unnaturally could have adverse effects on their society, destabilising an otherwise extraordinarily stable species. \n\n\n[[Seed Clues->Early Greatness]]\n\n[[Natural Discovery->Slow and Steady]]",
+      "text": "In the deep waters of the ocean, size matters. And thanks to the lower gravitational stresses afforded by buoyancy, you are able to create leviathans. Tremendously sized aquatic beasts drift through the ocean with a grace that belies their profiles. Tremendously long-lived and hardy, you know these creatures will be among the wisest of creatures when they achieve sentience. However, the slightly sedentary nature of their lives could lead them to be a slow-developing race, One that perhaps could benefit from some prompting down the line. If you were to leave clues to spur advancements across the world and the immediate solar system, it could perhaps help them achieve a greatness they would otherwise not achieve. On the other hand, accelerating them unnaturally could have adverse effects on their society, destabilising an otherwise extraordinarily stable species. \n\n\n\n[[Seed Clues->Early Greatness]]\n\n[[Natural Discovery->Slow and Steady]]",
       "links": [
         {
           "name": "Seed Clues",
@@ -337,11 +337,11 @@
       }
     },
     {
-      "text": "In amongst the coral reefs of the shallower waters, flitting from rock to rock, plant to plant. This is the day-to-day life of these aquatic missiles. Small and fast, both in terms of physiology and lifespan, this species burns fast and bright. As such when they gain sentience it seems likely that any society will be engineered towards the collective rather than the individual. There is however an outside possibility that the species may become overly combative with itself if not given enough space to grow, for the shallows are confined and claustrophobic. One solution to this might be to further change the geology of the planet to create more shallows. But to do this with life already seeded is spectacularly dangerous.\n\n[[Terraform->Ending6]]\n\n[[Don't Interfere->Witness Me]]",
+      "text": "In amongst the coral reefs of the shallower waters, flitting from rock to rock, plant to plant. This is the day-to-day life of these aquatic missiles. Small and fast, both in terms of physiology and lifespan, this species burns fast and bright. As such, when they gain sentience it seems likely that any society will be engineered towards the collective rather than the individual. There is however an outside possibility that the species may become overly combative with itself if not given enough space to grow, for the shallows are confined and claustrophobic. One solution to this might be to further change the geology of the planet to create more shallows. But to do this with life already seeded is spectacularly dangerous.\n\n[[Terraform->I am become Death...]]\n\n[[Don't Interfere->Witness Me]]",
       "links": [
         {
           "name": "Terraform",
-          "link": "Ending6",
+          "link": "I am become Death...",
           "pid": "29"
         },
         {
@@ -359,7 +359,7 @@
     },
     {
       "text": "As the asteroid tumbles lazily towards your planet, you do nothing. You watch with grim fascination as it impacts the surface of your world, and the fascination turns to horror when you see it crack and splinter with the impact. Continents simply fly away, torn from the planet violently as if torn off by your own hand. You know with a melancholy certainty that life will never bloom on this planet again.",
-      "name": "Ending1",
+      "name": "Don't Look Up...",
       "pid": "18",
       "position": {
         "x": "256",
@@ -371,13 +371,13 @@
       "name": "Enlightenment",
       "pid": "19",
       "position": {
-        "x": "388",
-        "y": "1266.5"
+        "x": "373",
+        "y": "1246.5"
       }
     },
     {
-      "text": "With a common enemy, an enemy that was close enough in strength but not insurmountable, your reptiles fought. It was bloody, and it was long. But they fought together. And they emerged from their crucible triumphant, and led a liberation of the stars. Seeking out oppressed or downtrodden species and lifting them up from under their oppressors.\n",
-      "name": "Conquer",
+      "text": "With a common enemy, an enemy that was close enough in strength but not insurmountable, your reptiles fought. It was bloody, and it was long. But they fought together. And they emerged from their crucible triumphant, and led a liberation of the stars, seeking out oppressed or downtrodden species and lifting them up from under their oppressors.\n",
+      "name": "Liberate",
       "pid": "20",
       "position": {
         "x": "588",
@@ -385,8 +385,8 @@
       }
     },
     {
-      "text": "Without a common enemy to fight, you watch with dismay as the lizards continue to battle for dominance of territory and resources on their barren world. What few advances they make, they utilise as weapons against their own kind. A route that will inevitably lead ti the destruction of their own species. A regrettable fate indeed.",
-      "name": "Ending3",
+      "text": "Without a common enemy to fight, you watch with dismay as the lizards continue to battle for dominance of territory and resources on their barren world. With what few advances they make, they utilise as weapons against their own kind. A route that will inevitably lead to the destruction of their own species. A regrettable fate indeed.",
+      "name": "There is only War",
       "pid": "21",
       "position": {
         "x": "681",
@@ -394,8 +394,8 @@
       }
     },
     {
-      "text": "Better to be safe than sorry. A flightless bird is less likely to fly the coop, less likely to burn up in its own ambitions. At least, that is what you thought when you robbed the birds of their flight. However a flightless bird is less likely to look up. And you watch on with mild frustration as the species stagnates and seems content to stay the same, despite the gift of consciousness.\n",
-      "name": "Ending2",
+      "text": "Better to be safe than sorry. A flightless bird is less likely to fly the coop, less likely to burn up in its own ambitions. At least, that is what you thought when you robbed the birds of their flight. However, a flightless bird is less likely to look up. And you watch on with mild frustration as the species stagnates and seems content to stay the same, despite the gift of consciousness.\n",
+      "name": "Safe and sorry",
       "pid": "22",
       "position": {
         "x": "534",
@@ -403,8 +403,8 @@
       }
     },
     {
-      "text": "As the arachnids achieve their sentience without your guidance or prompting, you decide to stay and guide them as they awaken further. With your help, they accelerate into the galaxy with technologies that would usually take millenia to discover and master. However all the while you aid them, their predatory natures have turned their eyes to you. To gain your power. And by the time you realise it, it’s far too late…",
-      "name": "Ending4",
+      "text": "As the arachnids achieve their sentience without your guidance or prompting, you decide to stay and guide them as they awaken further. With your help, they accelerate into the galaxy with technologies that would usually take millenia to discover and master. However, all the while you aid them, their predatory natures have turned their eyes to you. To gain your power. And by the time you realise it, it’s far too late…",
+      "name": "Incy wincy spider...",
       "pid": "23",
       "position": {
         "x": "794",
@@ -412,8 +412,8 @@
       }
     },
     {
-      "text": "You increase the number of available food for your species. And in the short term, your solution appears to have worked, the population skyrockets and the civilisation grows rapidly. However you begin to notice that without the challenge inherent with making your own way, this species has evolved to become complacent, greedy and sedentary. And they do not appear to be changing anytime soon. ",
-      "name": "Ending5",
+      "text": "You increase the number of available food for your species. And in the short term, your solution appears to have worked: the population skyrockets and the civilisation grows rapidly. However, you begin to notice that without the challenge inherent with making your own way, this species has evolved to become complacent, greedy and sedentary. And they do not appear to be changing anytime soon. ",
+      "name": "Sloth and Greed",
       "pid": "24",
       "position": {
         "x": "946",
@@ -439,7 +439,7 @@
       }
     },
     {
-      "text": "Although not a typical procedure by any means, you begin leaving caches of information all over the planet, detailing technologies and philosophies that would usually take species centuries to discover on their own. Fearing that you may have overstepped your mark, you observe with some anxiety as your gentle giants decipher the clues and fragments you left for them. Thankfully however, being long lived and wise, they utilise the new technologies with restraint. And accelerate themselves to early greatness.",
+      "text": "Although not a typical procedure by any means, you begin leaving caches of information all over the planet, detailing technologies and philosophies that would usually take species centuries to discover on their own. Fearing that you may have overstepped your mark, you observe with some anxiety as your gentle giants decipher the clues and fragments you left for them. Thankfully however, being long-lived and wise, they utilise the new technologies with restraint, and accelerate themselves to early greatness.",
       "name": "Early Greatness",
       "pid": "27",
       "position": {
@@ -448,7 +448,7 @@
       }
     },
     {
-      "text": "Slow and steady wins the race. A phrase that seems awfully familiar. So you refrain from giving this new species a leg up. Trusting them to overcome their challenges and reach the stars. And to your relief, and pride, they do. It is as graceful an ascension as you could have expected from such wondrous creatures.",
+      "text": "Slow and steady wins the race; a phrase that seems awfully familiar. So you refrain from giving this new species a leg up, trusting them to overcome their challenges and reach the stars. And to your relief, and pride, they do. It is as graceful an ascension as you could have expected from such wondrous creatures.",
       "name": "Slow and Steady",
       "pid": "28",
       "position": {
@@ -457,8 +457,8 @@
       }
     },
     {
-      "text": "In your hubris, you attempt to change the surface of the planet to better suit your small charges. However you underestimate the complexity of such a task, or maybe you overestimate your power. And in trying to change the surface of your world, you cause a seismic chain reaction. You watch with horror as your world fractures and breaks, destroying the species you tried to save.",
-      "name": "Ending6",
+      "text": "In your hubris, you attempt to change the surface of the planet to better suit your small charges. However, you underestimate the complexity of such a task, or maybe you overestimate your power. And in trying to change the surface of your world, you cause a seismic chain reaction. You watch with horror as your world fractures and breaks, destroying the species you tried to save.",
+      "name": "I am become Death...",
       "pid": "29",
       "position": {
         "x": "1372",
@@ -466,7 +466,7 @@
       }
     },
     {
-      "text": "Sparkly and Silver! Their lives are short, yes. Their environment is claustrophobic.Individuality is a rare commodity. But together they are strong. Each part of a greater whole. And they explode onto the galactic stage with the triumphant explosion of a firework.It is a firework that, unlike the individuals of the species, is anything but short lived.",
+      "text": "Sparkly and Silver! Their lives are short, yes. Their environment is claustrophobic. Individuality is a rare commodity. But together they are strong; each a part of a greater whole. And they explode onto the galactic stage with the triumphant detonation of a firework. It is a firework that, unlike the individuals of the species, is anything but short-lived.",
       "name": "Witness Me",
       "pid": "30",
       "position": {
@@ -475,7 +475,7 @@
       }
     },
     {
-      "text": "To stop these beautiful creatures would be an affront to their great potential. Progress always carries with it the risk of failure, and although their thirst for progress may increase their chance of failing, it is not for you to decide. And sure enough; after the granting of sentience, as you watch from afar, this fantastic avian species skyrockets itself into the stars with a speed and passion hitherto unseen in your life. And yes they failed many times. But ultimately they not only succeeded, but triumphed.",
+      "text": "To stop these beautiful creatures would be an affront to their great potential. Progress always carries with it the risk of failure, and although their thirst for progress may increase their chance of failing, it is not for you to decide. And sure enough; after the granting of sentience, as you watch from afar, this fantastic avian species skyrockets itself into the stars with a speed and passion hitherto unseen in your life. And yes, they failed many times. But ultimately they not only succeeded, but triumphed.",
       "name": "To Infinity...",
       "pid": "31",
       "position": {
