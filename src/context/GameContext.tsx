@@ -16,7 +16,7 @@ export const GameContext = createContext<IContext>({
 });
 
 export const GameProvider: React.FC = ({ children }) => {
-  const story = new StoryManager();
+  const [story] = useState<StoryManager>(new StoryManager());
 
   const [username, setUsername] = useState<string>(
     getLocalStorage("username", "")
@@ -24,7 +24,6 @@ export const GameProvider: React.FC = ({ children }) => {
   // getLocalStorage("currentPassageId", story.getCurrentPid())
   const [currentPassageId, setCurrentPassageId] = useState<string>(story.getCurrentPid());
 
-  // Todo: Add updates to the story manager instance
   useEffect(() => {
     setLocalStorage("username", username);
   }, [username]);
