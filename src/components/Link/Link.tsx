@@ -10,12 +10,8 @@ interface ButtonProps {
 const Link = ({ text, nextPassageId }: ButtonProps) => {
   const gameState = useContext(GameContext);
 
-  const onClick = () => {
-    gameState.goToPassageId(nextPassageId);
-  };
-
   return (
-    <div className="Link" onClick={onClick}>
+    <div className="Link" onClick={() => gameState.goToPassageId(nextPassageId)}>
       {text}
     </div>
   );
