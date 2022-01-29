@@ -2,6 +2,7 @@ import React, {useContext} from "react";
 import "./App.css";
 import { GameContext, GameProvider } from "./context/GameContext";
 import Link from "./components/Link";
+import NarrativeText from "./components/NarrativeText";
 
 function App() {
 
@@ -9,10 +10,9 @@ function App() {
   const options = gameState.currentPassage?.links ?? [];
 
   return (
-    <GameProvider>
       <div className="App">
         <header className="App-header">
-          <p>{gameState.currentPassage?.text}</p>
+          <NarrativeText text={gameState.currentPassage?.text} />
 
           {options.map((option:Link, index) => {
             return(
@@ -21,7 +21,6 @@ function App() {
           })}
         </header>
       </div>
-    </GameProvider>
   );
 }
 
