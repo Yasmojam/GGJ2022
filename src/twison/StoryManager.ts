@@ -1,4 +1,7 @@
-import twison from "../assets/stories/godcomplex.json";
+// import twison from "../assets/stories/godcomplex.json";
+import storyEng from "../assets/stories/godcomplex_eng.json";
+import storyRu from "../assets/stories/godcomplex_ru.json";
+import storyAr from "../assets/stories/godcomplex_ar.json";
 
 const LINK_REGEX = /\[\[.*?\]\]/g;
 
@@ -8,7 +11,11 @@ class StoryManager {
   passagesByPid: { [key: string]: Passage };
   choices: string[];
 
-  constructor() {
+  locale: string;
+
+  constructor(locale: string) {
+    console.log(locale)
+    this.locale = locale
     this.story = this.preprocess();
     this.pidOrder = [this.story.startnode];
     this.passagesByPid = {};
@@ -19,7 +26,8 @@ class StoryManager {
   }
 
   preprocess(): Story {
-  const copy = JSON.parse(JSON.stringify(twison));
+    const story = this.locale == "EN" ? storyEng : this.locale == "RU" ? storyRu : storyAr;
+    const copy = JSON.parse(JSON.stringify(story));
     copy.passages.forEach((passage: any) => {
       // Process text
       passage.text = passage.text.replace(LINK_REGEX, "");
