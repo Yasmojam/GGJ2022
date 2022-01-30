@@ -5,13 +5,15 @@ import Tooltip from "rc-tooltip";
 import "rc-tooltip/assets/bootstrap_white.css";
 
 interface NarrativeTextProps {
-  text: string;
+  text?: string;
+  language: Language | null;
 }
 
-const NarrativeText = ({ text }: NarrativeTextProps) => {
-  return (
+const NarrativeText = ({ text, language }: NarrativeTextProps) => {
+  return text ? (
     <div className="NarrativeText">
       <ReactMarkdown
+        className={language === "AR" ? "innerTextRtL" : "innerText"}
         children={text}
         // turn this into tooltips
         components={{
@@ -20,10 +22,10 @@ const NarrativeText = ({ text }: NarrativeTextProps) => {
               placement="top"
               overlay={
                 <div className="tooltip-overlay">
-                  {props.href.replace(/_/g, ' ')}
+                  {props.href.replace(/_/g, " ")}
                 </div>
               }
-              arrowContent={<div className="rc-tooltip-arrow-inner"></div>}
+              arrowContent={<div className="rc-tooltip-arrow-inner" />}
             >
               <span className="tooltip">{props.children}</span>
             </Tooltip>
@@ -31,7 +33,7 @@ const NarrativeText = ({ text }: NarrativeTextProps) => {
         }}
       />
     </div>
-  );
+  ) : null;
 };
 
 export default NarrativeText;
