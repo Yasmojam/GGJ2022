@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ggj2022/static/css/main.e29be816.css",
+    "main.css": "/ggj2022/static/css/main.f842a3be.css",
     "main.js": "/ggj2022/static/js/main.1334b2b8.js",
     "static/js/787.e9e7a448.chunk.js": "/ggj2022/static/js/787.e9e7a448.chunk.js",
     "static/media/JMH-Typewriter-Thin.ttf": "/ggj2022/static/media/JMH-Typewriter-Thin.a54c0ca98281ddd76d83.ttf",
@@ -10,12 +10,12 @@
     "static/media/SplendidN.ttf": "/ggj2022/static/media/SplendidN.aa380651a6542f95731c.ttf",
     "static/media/SplendidB.ttf": "/ggj2022/static/media/SplendidB.3878dbd3026ab85fe5a5.ttf",
     "index.html": "/ggj2022/index.html",
-    "main.e29be816.css.map": "/ggj2022/static/css/main.e29be816.css.map",
+    "main.f842a3be.css.map": "/ggj2022/static/css/main.f842a3be.css.map",
     "main.1334b2b8.js.map": "/ggj2022/static/js/main.1334b2b8.js.map",
     "787.e9e7a448.chunk.js.map": "/ggj2022/static/js/787.e9e7a448.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e29be816.css",
+    "static/css/main.f842a3be.css",
     "static/js/main.1334b2b8.js"
   ]
 }
