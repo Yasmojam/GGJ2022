@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, {useContext, useState} from "react";
 import "./App.css";
 import { GameContext } from "./context/GameContext";
 import Link from "./components/Link";
@@ -11,44 +11,29 @@ import LocalisationManager from "./localisationModel/localisation";
 import binary from "./assets/art/backgrounds/single.png";
 import ReactAudioPlayer from "react-audio-player";
 
+import GameComponent from "./components/GameComponent";
+
 function App() {
 
-  const gameState = useContext(GameContext); 
-  const options = gameState.currentPassage?.links ?? [];
+  const gameState = useContext(GameContext);
+  const [selectedLanguage, setSelectedLanguage]=useState("");
+  const list = ["RU", "EN", "AR"];
 
-  // const localisationManager = new LocalisationManager();
-
-  return (
-      <div className="App">
-        {gameState.currentPassage.pid != gameState.startNode && <ReactAudioPlayer src="sound/music/godcomplex.mp3" autoPlay loop volume={0.015} />}
-        <ReactAudioPlayer src={"sound/voiceover/"+ gameState.currentPassage?.name + ".m4a"} autoPlay volume={1.0} />
-
-        <div className="night">
-          {[...Array(30).keys()].map(_ =>
-            <div className="shooting_star"></div>
-          )}
-        </div>
-
-        <BackgroundImage
-          src={`./art/backgrounds/${gameState.backgroundImage}.png`}
-        />
-
-        <AnimateOnChange
-            animationIn="fadeIn"
-            animationOut="fadeOut"
-            durationOut={500}
-        >
-          <NarrativeText text={gameState.currentPassage?.text} />
-
-          <div className="LinksContainer">
-            {options.map((option:Link, index) => {
-              return(
-                <Link text={option.name} nextPassageId={option.pid} key={index} />
-              )
-            })}
-          </div>
-        </AnimateOnChange>
-      </div>
+  return selectedLanguage == "" || !gameState.loaded ? (
+    <div className="App">
+      {(list.map((language: String, index: number) => {
+        return (
+          <div key={index} onClick={()=>{
+            setSelectedLanguage(language as Language);
+            gameState.setLanguage(language as Language)
+          }}>{language}</div>
+        )}))}
+    </div>
+  ) :
+   (
+    <div className="App">
+      <GameComponent />
+    </div>
   );
 }
 

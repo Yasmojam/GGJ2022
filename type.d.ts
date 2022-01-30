@@ -1,3 +1,6 @@
+// AVAILABLE LANGUAGES
+type Language = "EN" | "AR" | "RU";
+
 // STORY
 type Link = {
   name: string;
