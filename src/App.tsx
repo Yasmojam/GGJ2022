@@ -6,12 +6,17 @@ import NarrativeText from "./components/NarrativeText";
 import BackgroundImage from "./components/BackgroundImage";
 import { AnimateOnChange } from 'react-animation';
 
+import LocalisationManager from "./localisationModel/localisation";
+
+import binary from "./assets/art/backgrounds/single.png";
 import ReactAudioPlayer from "react-audio-player";
 
 function App() {
 
   const gameState = useContext(GameContext); 
   const options = gameState.currentPassage?.links ?? [];
+
+  const localisationManager = new LocalisationManager();
 
   return (
       <div className="App">
