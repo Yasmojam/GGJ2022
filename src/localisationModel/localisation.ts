@@ -2,8 +2,8 @@
 // After tokenising, a new adjusted Twison JSON file is created replacing the tokens with their uuids.
 // The uuids will then be used alongside a locale to obtain the correct text to display for that language.
 
-import StoryManager from "../twison/StoryManager";
 import { v4 as uuidv4 } from 'uuid';
+import storyJSON from "../assets/stories/godcomplex.json";
 
 const translate = async (text: string, targetLanguage: string) => {
 	const API_KEY = "AIzaSyBa00-rEQeqhkyOB-WGC3VBm5GFp3xCKlA"; // baby don't hurt me, baby don't hurt me, no more
@@ -46,7 +46,7 @@ type TextToken = {
 export default class LocalisationManager {
 	private localisationTokens: LocalisationToken[] = [];
 	private textTokens: TextToken[] = [];
-	private generalisedLocaleStory: Story;
+	private generalisedLocaleStory: any;
 	private selectedLocale: Locale = Locale.English;
 
 	public setLocale(locale: Locale) {
@@ -56,17 +56,52 @@ export default class LocalisationManager {
 	public getSelectedLocale(): Locale { return this.selectedLocale; }
 
 	constructor() {
-		const storyManager = new StoryManager();
-
-		this.generalisedLocaleStory = {...storyManager.story};
+		this.generalisedLocaleStory = {};
 		
-		this.parseEnglishStoryToTextTokens().then(() => {
-			console.log(JSON.stringify(this.generalisedLocaleStory));
-			console.log(JSON.stringify(this.localisationTokens));
-			console.log(JSON.stringify(this.textTokens));	
-		});
+		// this.parseEnglishStoryToTextTokens().then(() => {
+		// 	console.log(JSON.stringify(this.generalisedLocaleStory));
+		// 	console.log(JSON.stringify(this.localisationTokens));
+		// 	console.log(JSON.stringify(this.textTokens));	
+		// });
+
+		this.translateStory(JSON.parse(JSON.stringify(storyJSON))).then((stories: any) => {
+			console.log(JSON.stringify(stories));
+		})
 
 		// console.log(translate("hello", Locale.Arabic));
+	}
+
+	async translateStory(story: any): Promise<any[]> {
+		let arabicStory = JSON.parse(JSON.stringify(story))
+		let russianStory = JSON.parse(JSON.stringify(story))
+
+		for(let i = 0; i < story.passages.length; i++) {			
+			const passage = story.passages[i];
+
+			const arabicText = await translate(passage.text, Locale.Arabic);
+			const russianText = await translate(passage.text, Locale.Russian);
+
+			arabicStory.passages[i].text = arabicText;
+			arabicStory.passages[i].name = arabicStory.passages[i].name + " Arabic";
+			russianStory.passages[i].text = russianText;
+			russianStory.passages[i].name = russianStory.passages[i].name + " Russian";
+
+			if(passage.links !== undefined) {
+				for(let j = 0; j < passage.links.length; j++) {
+					const link = passage.links[j];
+	
+					const arabicLink = await translate(link.name, Locale.Arabic);
+					const russianLink = await translate(link.name, Locale.Russian);
+	
+					arabicStory.passages[i].links[j].name = arabicLink;
+					arabicStory.passages[i].links[j].link += " Arabic";
+					russianStory.passages[i].links[j].name = russianLink;
+					russianStory.passages[i].links[j].link += " Russian";
+				}
+			}
+		}
+
+		return [story, arabicStory, russianStory];
 	}
 
 	// Uses generalisedLocaleStory as a workspace to parse the English story into text tokens. Changes generalisedLocaleStory in place.
