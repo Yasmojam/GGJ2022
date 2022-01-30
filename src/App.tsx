@@ -16,7 +16,7 @@ function App() {
   const gameState = useContext(GameContext); 
   const options = gameState.currentPassage?.links ?? [];
 
-  const localisationManager = new LocalisationManager();
+  // const localisationManager = new LocalisationManager();
 
   return (
       <div className="App">

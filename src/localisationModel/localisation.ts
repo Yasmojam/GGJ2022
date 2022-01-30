@@ -3,7 +3,7 @@
 // The uuids will then be used alongside a locale to obtain the correct text to display for that language.
 
 import { v4 as uuidv4 } from 'uuid';
-import storyJSON from "../assets/stories/godcomplex.json";
+import storyJSON from "../assets/stories/godcomplex_eng.json";
 
 const translate = async (text: string, targetLanguage: string) => {
 	const API_KEY = "AIzaSyBa00-rEQeqhkyOB-WGC3VBm5GFp3xCKlA"; // baby don't hurt me, baby don't hurt me, no more
@@ -65,7 +65,8 @@ export default class LocalisationManager {
 		// });
 
 		this.translateStory(JSON.parse(JSON.stringify(storyJSON))).then((stories: any) => {
-			console.log(JSON.stringify(stories));
+			console.log(JSON.stringify(stories[1]));
+			console.log(JSON.stringify(stories[2]));
 		})
 
 		// console.log(translate("hello", Locale.Arabic));
