@@ -1,0 +1,25 @@
+
+.App {
+    background-color: #394352;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 1.75rem;
+    color: white;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 4rem;
+
+    .world {
+        flex-grow: 1;
+    }
+
+    .animal {
+        flex-grow: 0;
+    }
+}

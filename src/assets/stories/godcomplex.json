@@ -234,7 +234,10 @@
       "position": {
         "x": "370",
         "y": "964"
-      }
+      },
+      "tags": [
+        "asteroid_approaching"
+      ]
     },
     {
       "text": "As the asteroid flies through your solar system, soaring like the avians you have painstakingly sculpted, you realise that a species such as this will always wish to soar higher and fly farther. Like an old fable that seems from a dream from a previous existence, you see an image of a boy flying too close to the fire and light in the sky above and crash back to the ground in flames. A sudden pang of fear crashes through your consciousness like icy fire, and you wonder if flight is such a good idea. If you take that power away from your creation however, might that only encourage them to try harder to fly? \n\n[[Clip their Wings->Safe and sorry]]\n\n[[Let them Soar->To Infinity...]] ",
@@ -397,7 +400,10 @@
       "position": {
         "x": "256",
         "y": "1139"
-      }
+      },
+      "tags": [
+        "disaster"
+      ]
     },
     {
       "text": "With a thought, you crack the asteroid, fragmenting it into pieces small enough to be burned up in the atmosphere or to land more or less harmlessly in the jungles below. Satisfied with your work, you move on to the final stage of the great experiment: Sentience. Time for your species to become self aware. Time for them to follow in the footsteps of giants. Time for Enlightenment. \n\n[[Start Over->Menu Screen]]",
@@ -413,7 +419,10 @@
       "position": {
         "x": "373",
         "y": "1246"
-      }
+      },
+      "tags": [
+        "saved"
+      ]
     },
     {
       "text": "With a common enemy, an enemy that was close enough in strength but not insurmountable, your reptiles fought. It was bloody, and it was long. But they fought together. And they emerged from their crucible triumphant, and led a liberation of the stars, seeking out oppressed or downtrodden species and lifting them up from under their oppressors.\n\n[[Start Over->Menu Screen]]\n",
@@ -573,7 +582,10 @@
       "position": {
         "x": "1372",
         "y": "1115"
-      }
+      },
+      "tags": [
+        "earthquake"
+      ]
     },
     {
       "text": "Sparkly and Silver! Their lives are short, yes. Their environment is claustrophobic. Individuality is a rare commodity. But together they are strong; each a part of a greater whole. And they explode onto the galactic stage with the triumphant detonation of a firework. It is a firework that, unlike the individuals of the species, is anything but short-lived.\n\n[[Start Over->Menu Screen]]",
