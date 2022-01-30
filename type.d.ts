@@ -1,6 +1,7 @@
 // STORY
 type Link = {
   name: string;
+  link: string;
   pid: string;
 };
 
