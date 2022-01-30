@@ -1,11 +1,15 @@
+// AVAILABLE LANGUAGES
+type Language = "EN" | "AR" | "RU";
+
 // STORY
 type Link = {
   name: string;
+  link: string;
   pid: string;
 };
 
 type Passage = {
-  text: string[];
+  text: string;
   links: Link[];
   name: string;
   pid: string;

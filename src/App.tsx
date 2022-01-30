@@ -1,11 +1,7 @@
-import React, {useContext} from "react";
-import "./App.scss";
+import React, {useContext, useState} from "react";
 import { GameContext } from "./context/GameContext";
-import Link from "./components/Link";
-import NarrativeText from "./components/NarrativeText";
-import BackgroundImage from "./components/BackgroundImage";
-import { AnimateOnChange } from 'react-animation';
-import ReactAudioPlayer from "react-audio-player";
+import "./App.css";
+import GameComponent from "./components/GameComponent";
 
 
 function App() {
@@ -40,22 +36,27 @@ function App() {
           </div>
         </div>
 
-        <AnimateOnChange
-            animationIn="fadeIn"
-            animationOut="fadeOut"
-            durationOut={500}
-        >
-          <NarrativeText text={gameState.currentPassage?.text} />
+function App() {
 
-          <div className="LinksContainer">
-            {options.map((option:Link, index) => {
-              return(
-                <Link text={option.name} nextPassageId={option.pid} key={index} />
-              )
-            })}
-          </div>
-        </AnimateOnChange>
-      </div>
+  const gameState = useContext(GameContext);
+  const [selectedLanguage, setSelectedLanguage]=useState("");
+  const list = ["RU", "EN", "AR"];
+
+  return selectedLanguage == "" || !gameState.loaded ? (
+    <div className="App">
+      {(list.map((language: String, index: number) => {
+        return (
+          <div key={index} onClick={()=>{
+            setSelectedLanguage(language as Language);
+            gameState.setLanguage(language as Language)
+          }}>{language}</div>
+        )}))}
+    </div>
+  ) :
+   (
+    <div className="App">
+      <GameComponent />
+    </div>
   );
 }
 
