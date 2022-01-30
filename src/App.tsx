@@ -1,21 +1,23 @@
 import React, {useContext} from "react";
-import "./App.css";
+import "./App.scss";
 import { GameContext } from "./context/GameContext";
 import Link from "./components/Link";
 import NarrativeText from "./components/NarrativeText";
 import BackgroundImage from "./components/BackgroundImage";
 import { AnimateOnChange } from 'react-animation';
-
 import ReactAudioPlayer from "react-audio-player";
 
-function App() {
 
-  const gameState = useContext(GameContext); 
+function App() {
+  const gameState = useContext(GameContext);
+  const worldImgLocation = `./art/backgrounds/${gameState.backgroundImage}.png`;
+  const animalImgLocation = `./art/animals/${gameState.currentPassage?.name}.png`;
+
   const options = gameState.currentPassage?.links ?? [];
 
   return (
       <div className="App">
-        {gameState.currentPassage.pid != gameState.startNode && <ReactAudioPlayer src="sound/music/godcomplex.mp3" autoPlay loop volume={0.015} />}
+        {gameState.currentPassage?.pid != gameState.startNode && <ReactAudioPlayer src="sound/music/godcomplex.mp3" autoPlay loop volume={0.015} />}
         <ReactAudioPlayer src={"sound/voiceover/english/"+ gameState.currentPassage?.name + ".m4a"} autoPlay volume={1.0} />
 
         <div className="night">
@@ -23,10 +25,20 @@ function App() {
             <div className="shooting_star"></div>
           )}
         </div>
+        
+        <div className="images">
+          <div className="world">
+            <BackgroundImage
+              src={worldImgLocation}
+            />
+          </div>
 
-        <BackgroundImage
-          src={`./art/backgrounds/${gameState.backgroundImage}.png`}
-        />
+          <div className="animal">
+            <BackgroundImage
+              src={animalImgLocation}
+            />
+          </div>
+        </div>
 
         <AnimateOnChange
             animationIn="fadeIn"
