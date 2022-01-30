@@ -1,0 +1,31 @@
+{
+    "animals": [
+        "Common Enemy.png",
+        "Don't Look Up....png",
+        "Enlightenment.png",
+        "Lizards.png",
+        "Mammals.png"
+    ],
+    "backgrounds": [
+        "binary.png",
+        "binary_large.png",
+        "binary_large_desert.png",
+        "binary_large_gaia.png",
+        "binary_large_gaia_asteroid_approaching.png",
+        "binary_large_gaia_asteroid_approaching_disaster.png",
+        "binary_small.png",
+        "binary_small_aquatic.png",
+        "binary_small_aquatic_earthquake.png",
+        "binary_small_tundra.png",
+        "single.png",
+        "single_large.png",
+        "single_large_desert.png",
+        "single_large_gaia.png",
+        "single_large_gaia_asteroid_approaching.png",
+        "single_large_gaia_asteroid_approaching_disaster.png",
+        "single_small.png",
+        "single_small_aquatic.png",
+        "single_small_aquatic_earthquake.png",
+        "single_small_tundra.png"
+    ]
+}

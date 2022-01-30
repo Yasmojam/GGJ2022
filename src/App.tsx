@@ -7,11 +7,14 @@ import BackgroundImage from "./components/BackgroundImage";
 import { AnimateOnChange } from 'react-animation';
 import ReactAudioPlayer from "react-audio-player";
 
+import files from './assets/files.json';
 
 function App() {
   const gameState = useContext(GameContext);
-  const worldImgLocation = `./art/backgrounds/${gameState.backgroundImage}.png`;
-  const animalImgLocation = `./art/animals/${gameState.currentPassage?.name}.png`;
+  const worldImgName = `${gameState.backgroundImage}.png`;
+  const worldImgLocation = `./art/backgrounds/${worldImgName}`;
+  const animalImgName = `${gameState.currentPassage?.name}.png`;
+  const animalImgLocation = `./art/animals/${animalImgName}`;
 
   const options = gameState.currentPassage?.links ?? [];
 
@@ -28,15 +31,23 @@ function App() {
         
         <div className="images">
           <div className="world">
-            <BackgroundImage
-              src={worldImgLocation}
-            />
+            {
+              files.backgrounds.includes(worldImgName) && 
+              <BackgroundImage
+                src={worldImgLocation}
+                height={500}
+              />
+            }
           </div>
 
           <div className="animal">
-            <BackgroundImage
-              src={animalImgLocation}
-            />
+            {
+              files.animals.includes(animalImgName) &&
+              <BackgroundImage
+                src={animalImgLocation}
+                height={100}
+              />
+            }
           </div>
         </div>
 
