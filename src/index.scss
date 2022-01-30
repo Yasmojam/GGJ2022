@@ -1,14 +1,14 @@
 body {
     margin: 0;
-    font-family: "Splendid66", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-        sans-serif;
+    font-family: "Splendid66", -apple-system, "JMH Typewriter", BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 * {
-    font-family: "Splendid66";
+    font-family: "Splendid66", "JMH Typewriter", serif
 }
 
 code {
@@ -31,6 +31,25 @@ code {
 @font-face {
     font-family: "Splendid66";
     src: url("./fonts/Splendid66/SplendidI.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "JMH Typewriter";
+    src: url("./fonts/JMHTypewriter/JMH-Typewriter.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "JMH Typewriter";
+    src: url("./fonts/JMHTypewriter/JMH-Typewriter-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "JMH Typewriter";
+    src: url("./fonts/JMHTypewriter/JMH-Typewriter-Thin.ttf") format("truetype");
     font-weight: normal;
     font-style: italic;
 }
