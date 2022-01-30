@@ -8,12 +8,16 @@ interface IContext {
   setUsername?: (username: string) => void;
   goToPassageId: (passage: string) => void;
   goBack?: () => void;
+  startNode: string;
+  backgroundImage: string | null; 
 }
 
 export const GameContext = createContext<IContext>({
   username: "",
   currentPassage: null,
-  goToPassageId: () => {}
+  backgroundImage: null,
+  goToPassageId: () => {},
+  startNode: ""
 });
 
 const story = new StoryManager();
@@ -42,6 +46,8 @@ export const GameProvider: React.FC = ({ children }) => {
         setUsername: (username: string) => setUsername(username),
         goToPassageId: (pid: string) => setCurrentPassageId(story.goToLink(pid)),
         goBack: () => setCurrentPassageId(story.goBack()),
+        startNode: story.getStartNode(),
+        backgroundImage: story.getChoices().join("_"),
       }}
     >
       {children}

@@ -1,7 +1,9 @@
+
+
 {
   "passages": [
     {
-      "text": "As the entity awakes, understanding dimly itching at the back of its being, it is confused. Everything is empty, and that isn’t right. It remembers there being...something. With that memory comes a flicker, and then a spark, and then a name: ‘X’. With the name comes a feeling of self, of purpose, and you remember why you were put here: To create something new, a new world with new rules. And as with all ideas, it has to begin with a spark, a star. The first [choice](each_choice_will_have_an_impact_on_the_ending_of_your_story)\n\n[[Single Star System->One Star]]\n\n[[Binary Star System->Two Star]] \n",
+      "text": "As the entity awakes, understanding dimly itching at the back of its being, it is confused. Everything is empty, and that isn’t right. It remembers there being... something. With that memory comes a flicker, and then a spark, and then a name... With the name comes a feeling of self, of purpose, and you remember why you were put here: To create something new, a new world with new rules. And as with all ideas, it has to begin with a spark, a star. The first [choice](each_choice_will_have_an_impact_on_the_ending_of_your_story).\n\n[[Single Star System->One Star]]\n\n[[Binary Star System->Two Star]] \n",
       "links": [
         {
           "name": "Single Star System",
@@ -18,7 +20,7 @@
       "pid": "1",
       "position": {
         "x": "860",
-        "y": "369.5"
+        "y": "369"
       }
     },
     {
@@ -39,8 +41,11 @@
       "pid": "2",
       "position": {
         "x": "739",
-        "y": "518.5"
-      }
+        "y": "518"
+      },
+      "tags": [
+        "single"
+      ]
     },
     {
       "text": "A single star, although a classic, has been done before. Time for innovation. A [Binary System](Binary_stars_are_two_stars_orbiting_a_common_center_of_mass). Two stars, two Suns, to gaze up at. The foundation now complete, the scenery must be added. You lay the background carpeting of stars and galaxies that will be visible from your future world. And then the largely decorative planets in their various orbits to furnish the solar system. With this complete, you turn your mind to the object of your existence: The planet you must make. Large or small? A larger planet will have more room for its species to grow and prosper, more resources. However, the larger gravitational pull could cause problems down the line with rogue [celestial bodies](Asteroids,_meteors,_etc). Smaller would lessen the likelihood of such an event but would limit the space and resources for the inhabitants of your planet.\n\n[[Large Planet->Large Planet]]\n\n[[Small Planet->Small Planet]] \n",
@@ -60,8 +65,11 @@
       "pid": "3",
       "position": {
         "x": "980",
-        "y": "518.5"
-      }
+        "y": "518"
+      },
+      "tags": [
+        "binary"
+      ]
     },
     {
       "text": "Concentrating once more, you pull in the discharge of particles from the creation of the furnishings of your burgeoning reality and compact them. Piling together the rock and metal and dust until you have created a large and cratered spheroid. Grey and dull, illuminated by your centrepiece, it pulls at you. A world like this could be a [Gaia](Gaia_was_the_Greek_goddess_of_Earth,_mother_of_all_life), verdant  green, teeming with life. A world like this would be more comfortable to inhabit, but more difficult to develop. Or it could be a relatively barren desert, where life has to fight against the planet to survive. Life would be harsh. It would be unfair. But the species that evolve here would be hardy, strong.\n\n[[Gaia World->Gaia World]]\n\n[[Desert World->Desert World]]",
@@ -81,8 +89,11 @@
       "pid": "4",
       "position": {
         "x": "684",
-        "y": "673.5"
-      }
+        "y": "673"
+      },
+      "tags": [
+        "large"
+      ]
     },
     {
       "text": "Concentrating once more, you pull in the discharge of particles from the creation of the furnishings of your burgeoning reality and compact them. Piling together the rock and metal and dust until you have created a small but dense planet. This planet is mostly smooth, with small channels and cracks breaking up the otherwise featureless landscape. With this world you see visions of two possibilities. A cold and unforgiving [Tundra](tundra_is_a_type_of_biome_where_the_tree_growth_is_hindered_by_low_temperatures_and_short_growing_seasons) World, or a warm and plentiful Ocean World. The former would condition the inhabitants to be hardy, but sparse. The latter, a plentiful aquatic species. However, one that might find difficulty in utilising resources. \n\n[[Tundra World->Tundra World]]\n\n[[Aquatic World->Aquatic World]]",
@@ -102,8 +113,11 @@
       "pid": "5",
       "position": {
         "x": "1010",
-        "y": "674.5"
-      }
+        "y": "674"
+      },
+      "tags": [
+        "small"
+      ]
     },
     {
       "text": "This is seeding a world in the most literal of senses: carpeting the rock with soil, [loam](a_fertile_soil_of_clay_and_sand_containing_humus) and vegetation. You begin with the atmosphere, rich in Carbon Dioxide and Nitrogen, essential for plant life. Your planet rotates around the system several hundred times before your task is done. And as it nears completion you take a moment to admire your handiwork. Luscious, thick forests and jungles cover the planet from pole to pole. Rare clearings give sight to the rivers and lakes that span the world and provide essential water to the multitudes of plants that now call this rock home. At the edge of your perception you sense an asteroid tumbling through space, bringing you from your reverie. It is time to choose what kind of animal life will begin to roam these forests.\n\n[[Mammals->Mammals]]\n\n[[Birds->Birds]]",
@@ -123,8 +137,11 @@
       "pid": "6",
       "position": {
         "x": "515",
-        "y": "803.5"
-      }
+        "y": "803"
+      },
+      "tags": [
+        "gaia"
+      ]
     },
     {
       "text": "It needs to be dry. It needs to be arid. The atmosphere is thin, the ozone layer similarly so. A carpet of silicon and powdered rock covers the blemished surface. Many of the craters become dunes, as gentle winds spread and shift the sands across your new creation. What little vegetation grows here is tough and efficient, maximising its space and energy usage for survival. Such a world will require a hardy animal species to thrive here. One that will not mind the heat and the light. Or maybe it will thrive beneath the surface, coming out only when necessary.\n\n[[Lizards->Lizards]]\n\n[[Arachnids->Arachnids]]",
@@ -144,8 +161,11 @@
       "pid": "7",
       "position": {
         "x": "704",
-        "y": "806.5"
-      }
+        "y": "806"
+      },
+      "tags": [
+        "desert"
+      ]
     },
     {
       "text": "Placing your new world in the cooler edges of the habitable zone, you create a dry atmosphere with a middling ozone layer, and proceed to cover the planet in snow and ice. The forests of this world will keep their leaves all year round, and will be resistant to the cold weather and harsh conditions. In the warmer seasons, some of the lakes and rivers may thaw and some of the snow will melt, but these will be brief respites in an otherwise [whiteout](a_surface_weather_condition_in_a_snow-covered_area_in_which_no_object_casts_a_shadow,_the_horizon_cannot_be_seen,_and_only_dark_objects_are_discernible) world. The creatures of this world will have to brave the cold with strength. They will have to conserve their energy and maybe even go into extended periods of hibernation. But will they do this on land? Or Underwater? Or Perhaps even both?  \n\n[[Mammals->MammalsT]]\n\n[[Aquatic Mammals->MammalsAT]]",
@@ -165,8 +185,11 @@
       "pid": "8",
       "position": {
         "x": "983",
-        "y": "801.5"
-      }
+        "y": "801"
+      },
+      "tags": [
+        "tundra"
+      ]
     },
     {
       "text": "You craft an Ocean world, where the trenches and cracks of this small sphere will be covered by leagues of water. The planet will gain considerable size compared to if you were to seed the world with land-based terrain. You muster a strong atmosphere of Oxygen and Nitrogen, coupled with a relatively thin ozone layer to ensure that the oceans are temperate, but not boiling. Compared to the other projects you could have undertaken, this is perhaps the most simple after the atmosphere is complete. You cover the planet in fathoms and fathoms of water. In the shallower parts you lay vast coral reefs and ocean plant life and in the deepest trenches are volcanic vents that spread helpful bacteria. The dominant species here will have to rule either the shallows or the deeps to thrive, and as such size is the key factor. \n\n[[Big Fish->Big Fish]]\n\n[[Small Fish->Small Fish]]\n",
@@ -186,8 +209,11 @@
       "pid": "9",
       "position": {
         "x": "1194",
-        "y": "794.5"
-      }
+        "y": "794"
+      },
+      "tags": [
+        "aquatic"
+      ]
     },
     {
       "text": "As the asteroid hurtles through the void, your consciousness becomes aware that it will impact with your creation should you not intervene. Thus you are presented with something of a dilemma; you know that if you do nothing, everything you have created thus far may perish, but from the ashes may rise something even more spectacular. But if you do use your infinite power to destroy the asteroid, you might release something worse onto your creation at a later date.\n\n[[Do Nothing->Don't Look Up...]]\n\n[[Destroy it->Enlightenment]]",
@@ -207,7 +233,7 @@
       "pid": "10",
       "position": {
         "x": "370",
-        "y": "964.5"
+        "y": "964"
       }
     },
     {
@@ -228,7 +254,7 @@
       "pid": "11",
       "position": {
         "x": "524",
-        "y": "961.5"
+        "y": "961"
       }
     },
     {
@@ -249,11 +275,11 @@
       "pid": "12",
       "position": {
         "x": "647",
-        "y": "962.5"
+        "y": "962"
       }
     },
     {
-      "text": "Burrowing beneath the surface of an unforgiving world, creating complex tunnels and burrows for its kind to thrive and hunt in. Your eight legged creations skitter across the planet, building intricate colonies and advancing at astonishing rates. Such is their progress that you realise they are close to becoming sentient of their own accord. Although this is not how you had planned it, this is an excellent development. But since your tenure hasn’t yet ended, you are faced with a conundrum: do you stay and advance them beyond sentience and aid their civilisation until your tenure is over? This would accelerate them into the stars far sooner than they would normally achieve, but it might also lead them to either rely on you or resent you. Alternatively you could leave early and begin again, a new planet. A new reality.\n\n[[Accelerate->Incy wincy spider...]]\n\n[[Start Over->The Beginning]] ",
+      "text": "Burrowing beneath the surface of an unforgiving world, creating complex tunnels and burrows for its kind to thrive and hunt in. Your eight legged creations skitter across the planet, building intricate colonies and advancing at astonishing rates. Such is their progress that you realise they are close to becoming sentient of their own accord. Although this is not how you had planned it, this is an excellent development. But since your tenure hasn’t yet ended, you are faced with a conundrum: do you stay and advance them beyond sentience and aid their civilisation until your tenure is over? This would accelerate them into the stars far sooner than they would normally achieve, but it might also lead them to either rely on you or resent you. Alternatively you could leave early and begin again, a new planet. A new reality.\n\n[[Accelerate->Incy wincy spider...]]\n\n[[Start Over->Menu Screen]] ",
       "links": [
         {
           "name": "Accelerate",
@@ -262,15 +288,15 @@
         },
         {
           "name": "Start Over",
-          "link": "The Beginning",
-          "pid": "1"
+          "link": "Menu Screen",
+          "pid": "32"
         }
       ],
       "name": "Arachnids",
       "pid": "13",
       "position": {
         "x": "769",
-        "y": "963.5"
+        "y": "963"
       }
     },
     {
@@ -291,16 +317,16 @@
       "pid": "14",
       "position": {
         "x": "910",
-        "y": "961.5"
+        "y": "961"
       }
     },
     {
-      "text": "Covered in protective layers of blubber and sleek, almost oily skin, these aquatic creatures spend most of their lives in the frigid but food-rich seas and lakes of this frozen rock. However, since they have no gills, they must regularly surface for air and expose themselves to the frigid surface. As a species that does not truly occupy the land nor the sea, they may find it difficult to ever leave this world lest something radically change in their physiology. And at that point it might be more prudent to simply start over. But to underestimate a species that can exist in two worlds at once may be a rueful mistake, and as such, perhaps it would be better to stay the course and grant them sentience as you had originally planned.\n\n[[Start Over->The Beginning]] \n\n[[Stay the Course->Adaptable]] ",
+      "text": "Covered in protective layers of blubber and sleek, almost oily skin, these aquatic creatures spend most of their lives in the frigid but food-rich seas and lakes of this frozen rock. However, since they have no gills, they must regularly surface for air and expose themselves to the frigid surface. As a species that does not truly occupy the land nor the sea, they may find it difficult to ever leave this world lest something radically change in their physiology. And at that point it might be more prudent to simply start over. But to underestimate a species that can exist in two worlds at once may be a rueful mistake, and as such, perhaps it would be better to stay the course and grant them sentience as you had originally planned.\n\n[[Start Over->Menu Screen]] \n\n[[Stay the Course->Adaptable]] ",
       "links": [
         {
           "name": "Start Over",
-          "link": "The Beginning",
-          "pid": "1"
+          "link": "Menu Screen",
+          "pid": "32"
         },
         {
           "name": "Stay the Course",
@@ -312,7 +338,7 @@
       "pid": "15",
       "position": {
         "x": "1045",
-        "y": "960.5"
+        "y": "960"
       }
     },
     {
@@ -333,7 +359,7 @@
       "pid": "16",
       "position": {
         "x": "1152",
-        "y": "959.5"
+        "y": "959"
       }
     },
     {
@@ -353,140 +379,1475 @@
       "name": "Small Fish",
       "pid": "17",
       "position": {
-        "x": "1279",
-        "y": "962.5"
+        "x": "1277",
+        "y": "962"
       }
     },
     {
-      "text": "As the asteroid tumbles lazily towards your planet, you do nothing. You watch with grim fascination as it impacts the surface of your world, and the fascination turns to horror when you see it crack and splinter with the impact. Continents simply fly away, torn from the planet violently as if torn off by your own hand. You know with a melancholy certainty that life will never bloom on this planet again.",
+      "text": "As the asteroid tumbles lazily towards your planet, you do nothing. You watch with grim fascination as it impacts the surface of your world, and the fascination turns to horror when you see it crack and splinter with the impact. Continents simply fly away, torn from the planet violently as if torn off by your own hand. You know with a melancholy certainty that life will never bloom on this planet again.\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Don't Look Up...",
       "pid": "18",
       "position": {
         "x": "256",
-        "y": "1139.5"
+        "y": "1139"
       }
     },
     {
-      "text": "With a thought, you crack the asteroid, fragmenting it into pieces small enough to be burned up in the atmosphere or to land more or less harmlessly in the jungles below. Satisfied with your work, you move on to the final stage of the great experiment: Sentience. Time for your species to become self aware. Time for them to follow in the footsteps of giants. Time for Enlightenment. ",
+      "text": "With a thought, you crack the asteroid, fragmenting it into pieces small enough to be burned up in the atmosphere or to land more or less harmlessly in the jungles below. Satisfied with your work, you move on to the final stage of the great experiment: Sentience. Time for your species to become self aware. Time for them to follow in the footsteps of giants. Time for Enlightenment. \n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Enlightenment",
       "pid": "19",
       "position": {
         "x": "373",
-        "y": "1246.5"
+        "y": "1246"
       }
     },
     {
-      "text": "With a common enemy, an enemy that was close enough in strength but not insurmountable, your reptiles fought. It was bloody, and it was long. But they fought together. And they emerged from their crucible triumphant, and led a liberation of the stars, seeking out oppressed or downtrodden species and lifting them up from under their oppressors.\n",
+      "text": "With a common enemy, an enemy that was close enough in strength but not insurmountable, your reptiles fought. It was bloody, and it was long. But they fought together. And they emerged from their crucible triumphant, and led a liberation of the stars, seeking out oppressed or downtrodden species and lifting them up from under their oppressors.\n\n[[Start Over->Menu Screen]]\n",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Liberate",
       "pid": "20",
       "position": {
         "x": "588",
-        "y": "1265.5"
+        "y": "1265"
       }
     },
     {
-      "text": "Without a common enemy to fight, you watch with dismay as the lizards continue to battle for dominance of territory and resources on their barren world. With what few advances they make, they utilise as weapons against their own kind. A route that will inevitably lead to the destruction of their own species. A regrettable fate indeed.",
+      "text": "Without a common enemy to fight, you watch with dismay as the lizards continue to battle for dominance of territory and resources on their barren world. With what few advances they make, they utilise as weapons against their own kind. A route that will inevitably lead to the destruction of their own species. A regrettable fate indeed.\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "There is only War",
       "pid": "21",
       "position": {
         "x": "681",
-        "y": "1118.5"
+        "y": "1118"
       }
     },
     {
-      "text": "Better to be safe than sorry. A flightless bird is less likely to fly the coop, less likely to burn up in its own ambitions. At least, that is what you thought when you robbed the birds of their flight. However, a flightless bird is less likely to look up. And you watch on with mild frustration as the species stagnates and seems content to stay the same, despite the gift of consciousness.\n",
+      "text": "Better to be safe than sorry. A flightless bird is less likely to fly the coop, less likely to burn up in its own ambitions. At least, that is what you thought when you robbed the birds of their flight. However, a flightless bird is less likely to look up. And you watch on with mild frustration as the species stagnates and seems content to stay the same, despite the gift of consciousness.\n\n[[Start Over->Menu Screen]]\n",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Safe and sorry",
       "pid": "22",
       "position": {
         "x": "534",
-        "y": "1127.5"
+        "y": "1127"
       }
     },
     {
-      "text": "As the arachnids achieve their sentience without your guidance or prompting, you decide to stay and guide them as they awaken further. With your help, they accelerate into the galaxy with technologies that would usually take millenia to discover and master. However, all the while you aid them, their predatory natures have turned their eyes to you. To gain your power. And by the time you realise it, it’s far too late…",
+      "text": "As the arachnids achieve their sentience without your guidance or prompting, you decide to stay and guide them as they awaken further. With your help, they accelerate into the galaxy with technologies that would usually take millenia to discover and master. However, all the while you aid them, their predatory natures have turned their eyes to you. To gain your power. And by the time you realise it, it’s far too late…\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Incy wincy spider...",
       "pid": "23",
       "position": {
         "x": "794",
-        "y": "1118.5"
+        "y": "1118"
       }
     },
     {
-      "text": "You increase the number of available food for your species. And in the short term, your solution appears to have worked: the population skyrockets and the civilisation grows rapidly. However, you begin to notice that without the challenge inherent with making your own way, this species has evolved to become complacent, greedy and sedentary. And they do not appear to be changing anytime soon. ",
+      "text": "You increase the number of available food for your species. And in the short term, your solution appears to have worked: the population skyrockets and the civilisation grows rapidly. However, you begin to notice that without the challenge inherent with making your own way, this species has evolved to become complacent, greedy and sedentary. And they do not appear to be changing anytime soon. \n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Sloth and Greed",
       "pid": "24",
       "position": {
         "x": "946",
-        "y": "1119.5"
+        "y": "1119"
       }
     },
     {
-      "text": "Patience is a virtue when creating a civilisation. And though it takes many centuries after gaining sentience, your species finally advances to a point that food shortages become less and less of a problem. The population starts to expand at an exponential rate, and with their now hard-wired ability to survive in the harshest of conditions, they spread to the stars triumphant in their achievements. ",
+      "text": "Patience is a virtue when creating a civilisation. And though it takes many centuries after gaining sentience, your species finally advances to a point that food shortages become less and less of a problem. The population starts to expand at an exponential rate, and with their now hard-wired ability to survive in the harshest of conditions, they spread to the stars triumphant in their achievements. \n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Survival",
       "pid": "25",
       "position": {
         "x": "884",
-        "y": "1279.5"
+        "y": "1279"
       }
     },
     {
-      "text": "Faith in your creation drives you to stay and complete the experiment. Granting the aquatic mammals intelligence, you watch with prideful fascination as they create new and fantastic technologies that only one who lives in two worlds could devise. It is tough going, but soon they surpass your wildest dreams. Becoming the dominant species not only on their own planet, but countless others.",
+      "text": "Faith in your creation drives you to stay and complete the experiment. Granting the aquatic mammals intelligence, you watch with prideful fascination as they create new and fantastic technologies that only one who lives in two worlds could devise. It is tough going, but soon they surpass your wildest dreams. Becoming the dominant species not only on their own planet, but countless others.\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Adaptable",
       "pid": "26",
       "position": {
         "x": "1029",
-        "y": "1267.5"
+        "y": "1267"
       }
     },
     {
-      "text": "Although not a typical procedure by any means, you begin leaving caches of information all over the planet, detailing technologies and philosophies that would usually take species centuries to discover on their own. Fearing that you may have overstepped your mark, you observe with some anxiety as your gentle giants decipher the clues and fragments you left for them. Thankfully however, being long-lived and wise, they utilise the new technologies with restraint, and accelerate themselves to early greatness.",
+      "text": "Although not a typical procedure by any means, you begin leaving caches of information all over the planet, detailing technologies and philosophies that would usually take species centuries to discover on their own. Fearing that you may have overstepped your mark, you observe with some anxiety as your gentle giants decipher the clues and fragments you left for them. Thankfully however, being long-lived and wise, they utilise the new technologies with restraint, and accelerate themselves to early greatness.\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Early Greatness",
       "pid": "27",
       "position": {
         "x": "1088",
-        "y": "1113.5"
+        "y": "1113"
       }
     },
     {
-      "text": "Slow and steady wins the race; a phrase that seems awfully familiar. So you refrain from giving this new species a leg up, trusting them to overcome their challenges and reach the stars. And to your relief, and pride, they do. It is as graceful an ascension as you could have expected from such wondrous creatures.",
+      "text": "Slow and steady wins the race; a phrase that seems awfully familiar. So you refrain from giving this new species a leg up, trusting them to overcome their challenges and reach the stars. And to your relief, and pride, they do. It is as graceful an ascension as you could have expected from such wondrous creatures.\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Slow and Steady",
       "pid": "28",
       "position": {
         "x": "1212",
-        "y": "1114.5"
+        "y": "1114"
       }
     },
     {
-      "text": "In your hubris, you attempt to change the surface of the planet to better suit your small charges. However, you underestimate the complexity of such a task, or maybe you overestimate your power. And in trying to change the surface of your world, you cause a seismic chain reaction. You watch with horror as your world fractures and breaks, destroying the species you tried to save.",
+      "text": "In your hubris, you attempt to change the surface of the planet to better suit your small charges. However, you underestimate the complexity of such a task, or maybe you overestimate your power. And in trying to change the surface of your world, you cause a seismic chain reaction. You watch with horror as your world fractures and breaks, destroying the species you tried to save.\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "I am become Death...",
       "pid": "29",
       "position": {
         "x": "1372",
-        "y": "1115.5"
+        "y": "1115"
       }
     },
     {
-      "text": "Sparkly and Silver! Their lives are short, yes. Their environment is claustrophobic. Individuality is a rare commodity. But together they are strong; each a part of a greater whole. And they explode onto the galactic stage with the triumphant detonation of a firework. It is a firework that, unlike the individuals of the species, is anything but short-lived.",
+      "text": "Sparkly and Silver! Their lives are short, yes. Their environment is claustrophobic. Individuality is a rare commodity. But together they are strong; each a part of a greater whole. And they explode onto the galactic stage with the triumphant detonation of a firework. It is a firework that, unlike the individuals of the species, is anything but short-lived.\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "Witness Me",
       "pid": "30",
       "position": {
         "x": "1285",
-        "y": "1240.5"
+        "y": "1240"
       }
     },
     {
-      "text": "To stop these beautiful creatures would be an affront to their great potential. Progress always carries with it the risk of failure, and although their thirst for progress may increase their chance of failing, it is not for you to decide. And sure enough; after the granting of sentience, as you watch from afar, this fantastic avian species skyrockets itself into the stars with a speed and passion hitherto unseen in your life. And yes, they failed many times. But ultimately they not only succeeded, but triumphed.",
+      "text": "To stop these beautiful creatures would be an affront to their great potential. Progress always carries with it the risk of failure, and although their thirst for progress may increase their chance of failing, it is not for you to decide. And sure enough; after the granting of sentience, as you watch from afar, this fantastic avian species skyrockets itself into the stars with a speed and passion hitherto unseen in your life. And yes, they failed many times. But ultimately they not only succeeded, but triumphed.\n\n[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
       "name": "To Infinity...",
       "pid": "31",
       "position": {
         "x": "443",
-        "y": "1376.5"
+        "y": "1376"
+      }
+    },
+    {
+      "text": "[[Wake up->The Beginning]]\n\n[[Проснись->The Beginning Russian]]\n\n[[استيقظ->The Beginning Arabic]]",
+      "links": [
+        {
+          "name": "Wake up",
+          "link": "The Beginning",
+          "pid": "1"
+        },
+        {
+          "name": "Проснись",
+          "link": "The Beginning Russian",
+          "pid": "33"
+        },
+        {
+          "name": "استيقظ",
+          "link": "The Beginning Arabic",
+          "pid": "64"
+        }
+      ],
+      "name": "Menu Screen",
+      "pid": "32",
+      "position": {
+        "x": "2112",
+        "y": "124"
+      }
+    },
+    {
+      "text": "[[Single Star System->One Star Russian]]\n\n[[Binary Star System->Two Star Russian]] ",
+      "links": [
+        {
+          "name": "Single Star System",
+          "link": "One Star Russian",
+          "pid": "34"
+        },
+        {
+          "name": "Binary Star System",
+          "link": "Two Star Russian",
+          "pid": "35"
+        }
+      ],
+      "name": "The Beginning Russian",
+      "pid": "33",
+      "position": {
+        "x": "2112",
+        "y": "360"
+      }
+    },
+    {
+      "text": "[[Large Planet->Large Planet Russian]]\n\n[[Small Planet->Small Planet Russian]]",
+      "links": [
+        {
+          "name": "Large Planet",
+          "link": "Large Planet Russian",
+          "pid": "36"
+        },
+        {
+          "name": "Small Planet",
+          "link": "Small Planet Russian",
+          "pid": "37"
+        }
+      ],
+      "name": "One Star Russian",
+      "pid": "34",
+      "position": {
+        "x": "1972",
+        "y": "506.5"
+      },
+      "tags": [
+        "single"
+      ]
+    },
+    {
+      "text": "[[Large Planet->Large Planet Russian]]\n\n[[Small Planet->Small Planet Russian]] ",
+      "links": [
+        {
+          "name": "Large Planet",
+          "link": "Large Planet Russian",
+          "pid": "36"
+        },
+        {
+          "name": "Small Planet",
+          "link": "Small Planet Russian",
+          "pid": "37"
+        }
+      ],
+      "name": "Two Star Russian",
+      "pid": "35",
+      "position": {
+        "x": "2248",
+        "y": "501.5"
+      },
+      "tags": [
+        "binary"
+      ]
+    },
+    {
+      "text": "[[Gaia World->Gaia World Russian]]\n\n[[Desert World->Desert World Russian]]",
+      "links": [
+        {
+          "name": "Gaia World",
+          "link": "Gaia World Russian",
+          "pid": "38"
+        },
+        {
+          "name": "Desert World",
+          "link": "Desert World Russian",
+          "pid": "39"
+        }
+      ],
+      "name": "Large Planet Russian",
+      "pid": "36",
+      "position": {
+        "x": "1907",
+        "y": "659.5"
+      },
+      "tags": [
+        "large"
+      ]
+    },
+    {
+      "text": "[[Tundra World->Tundra World Russian]]\n\n[[Aquatic World->Aquatic World Russian]]",
+      "links": [
+        {
+          "name": "Tundra World",
+          "link": "Tundra World Russian",
+          "pid": "40"
+        },
+        {
+          "name": "Aquatic World",
+          "link": "Aquatic World Russian",
+          "pid": "41"
+        }
+      ],
+      "name": "Small Planet Russian",
+      "pid": "37",
+      "position": {
+        "x": "2316",
+        "y": "662.5"
+      },
+      "tags": [
+        "small"
+      ]
+    },
+    {
+      "text": "[[Mammals->Mammals Russian]]\n\n[[Birds->Birds Russian]]",
+      "links": [
+        {
+          "name": "Mammals",
+          "link": "Mammals Russian",
+          "pid": "42"
+        },
+        {
+          "name": "Birds",
+          "link": "Birds Russian",
+          "pid": "43"
+        }
+      ],
+      "name": "Gaia World Russian",
+      "pid": "38",
+      "position": {
+        "x": "1751",
+        "y": "819.5"
+      },
+      "tags": [
+        "gaia"
+      ]
+    },
+    {
+      "text": "[[Lizards->Lizards Russian]]\n\n[[Arachnids->Arachnids Russian]]",
+      "links": [
+        {
+          "name": "Lizards",
+          "link": "Lizards Russian",
+          "pid": "44"
+        },
+        {
+          "name": "Arachnids",
+          "link": "Arachnids Russian",
+          "pid": "45"
+        }
+      ],
+      "name": "Desert World Russian",
+      "pid": "39",
+      "position": {
+        "x": "1943",
+        "y": "818.5"
+      },
+      "tags": [
+        "desert"
+      ]
+    },
+    {
+      "text": "[[Mammals->MammalsT Russian]]\n\n[[Aquatic Mammals->MammalsAT Russian]]",
+      "links": [
+        {
+          "name": "Mammals",
+          "link": "MammalsT Russian",
+          "pid": "46"
+        },
+        {
+          "name": "Aquatic Mammals",
+          "link": "MammalsAT Russian",
+          "pid": "47"
+        }
+      ],
+      "name": "Tundra World Russian",
+      "pid": "40",
+      "position": {
+        "x": "2280",
+        "y": "821.5"
+      },
+      "tags": [
+        "tundra"
+      ]
+    },
+    {
+      "text": "[[Big Fish->Big Fish Russian]]\n\n[[Small Fish->Small Fish Russian]]",
+      "links": [
+        {
+          "name": "Big Fish",
+          "link": "Big Fish Russian",
+          "pid": "48"
+        },
+        {
+          "name": "Small Fish",
+          "link": "Small Fish Russian",
+          "pid": "49"
+        }
+      ],
+      "name": "Aquatic World Russian",
+      "pid": "41",
+      "position": {
+        "x": "2499",
+        "y": "820.5"
+      },
+      "tags": [
+        "aquatic"
+      ]
+    },
+    {
+      "text": "[[Do Nothing->Don't Look Up... Russian]]\n\n[[Destroy it->Enlightenment Russian]]",
+      "links": [
+        {
+          "name": "Do Nothing",
+          "link": "Don't Look Up... Russian",
+          "pid": "50"
+        },
+        {
+          "name": "Destroy it",
+          "link": "Enlightenment Russian",
+          "pid": "51"
+        }
+      ],
+      "name": "Mammals Russian",
+      "pid": "42",
+      "position": {
+        "x": "1640",
+        "y": "962.5"
+      }
+    },
+    {
+      "text": "[[Clip their Wings->Safe and sorry Russian]]\n\n[[Let them Soar->To Infinity... Russian]] ",
+      "links": [
+        {
+          "name": "Clip their Wings",
+          "link": "Safe and sorry Russian",
+          "pid": "52"
+        },
+        {
+          "name": "Let them Soar",
+          "link": "To Infinity... Russian",
+          "pid": "53"
+        }
+      ],
+      "name": "Birds Russian",
+      "pid": "43",
+      "position": {
+        "x": "1786",
+        "y": "960.5"
+      }
+    },
+    {
+      "text": "[[Common Enemy->Liberate Russian]]\n\n[[No Enemy->There is only War Russian]]",
+      "links": [
+        {
+          "name": "Common Enemy",
+          "link": "Liberate Russian",
+          "pid": "54"
+        },
+        {
+          "name": "No Enemy",
+          "link": "There is only War Russian",
+          "pid": "55"
+        }
+      ],
+      "name": "Lizards Russian",
+      "pid": "44",
+      "position": {
+        "x": "1927",
+        "y": "960.5"
+      }
+    },
+    {
+      "text": "[[Accelerate->Incy wincy spider... Russian]]\n\n[[Start Over->Menu Screen]] ",
+      "links": [
+        {
+          "name": "Accelerate",
+          "link": "Incy wincy spider... Russian",
+          "pid": "56"
+        },
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Arachnids Russian",
+      "pid": "45",
+      "position": {
+        "x": "2070",
+        "y": "964.5"
+      }
+    },
+    {
+      "text": "[[Increase Food->Sloth and Greed Russian]]\n\n[[Don't Interfere->Survival Russian]]",
+      "links": [
+        {
+          "name": "Increase Food",
+          "link": "Sloth and Greed Russian",
+          "pid": "58"
+        },
+        {
+          "name": "Don't Interfere",
+          "link": "Survival Russian",
+          "pid": "57"
+        }
+      ],
+      "name": "MammalsT Russian",
+      "pid": "46",
+      "position": {
+        "x": "2215",
+        "y": "962.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]] \n\n[[Stay the Course->Adaptable Russian]] ",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        },
+        {
+          "name": "Stay the Course",
+          "link": "Adaptable Russian",
+          "pid": "59"
+        }
+      ],
+      "name": "MammalsAT Russian",
+      "pid": "47",
+      "position": {
+        "x": "2347",
+        "y": "963.5"
+      }
+    },
+    {
+      "text": "[[Seed Clues->Early Greatness Russian]]\n\n[[Natural Discovery->Slow and Steady Russian]]",
+      "links": [
+        {
+          "name": "Seed Clues",
+          "link": "Early Greatness Russian",
+          "pid": "60"
+        },
+        {
+          "name": "Natural Discovery",
+          "link": "Slow and Steady Russian",
+          "pid": "61"
+        }
+      ],
+      "name": "Big Fish Russian",
+      "pid": "48",
+      "position": {
+        "x": "2477",
+        "y": "963.5"
+      }
+    },
+    {
+      "text": "[[Terraform->I am become Death... Russian]]\n\n[[Don't Interfere->Witness Me Russian]]",
+      "links": [
+        {
+          "name": "Terraform",
+          "link": "I am become Death... Russian",
+          "pid": "63"
+        },
+        {
+          "name": "Don't Interfere",
+          "link": "Witness Me Russian",
+          "pid": "62"
+        }
+      ],
+      "name": "Small Fish Russian",
+      "pid": "49",
+      "position": {
+        "x": "2612",
+        "y": "961.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Don't Look Up... Russian",
+      "pid": "50",
+      "position": {
+        "x": "1553",
+        "y": "1110.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Enlightenment Russian",
+      "pid": "51",
+      "position": {
+        "x": "1667",
+        "y": "1200.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Safe and sorry Russian",
+      "pid": "52",
+      "position": {
+        "x": "1809",
+        "y": "1117.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "To Infinity... Russian",
+      "pid": "53",
+      "position": {
+        "x": "1748",
+        "y": "1351.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Liberate Russian",
+      "pid": "54",
+      "position": {
+        "x": "1895",
+        "y": "1249.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "There is only War Russian",
+      "pid": "55",
+      "position": {
+        "x": "1975",
+        "y": "1122.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Incy wincy spider... Russian",
+      "pid": "56",
+      "position": {
+        "x": "2098",
+        "y": "1122.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Survival Russian",
+      "pid": "57",
+      "position": {
+        "x": "2199",
+        "y": "1257.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Sloth and Greed Russian",
+      "pid": "58",
+      "position": {
+        "x": "2252",
+        "y": "1120.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Adaptable Russian",
+      "pid": "59",
+      "position": {
+        "x": "2354",
+        "y": "1251.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Early Greatness Russian",
+      "pid": "60",
+      "position": {
+        "x": "2401",
+        "y": "1117.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Slow and Steady Russian",
+      "pid": "61",
+      "position": {
+        "x": "2538",
+        "y": "1119.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Witness Me Russian",
+      "pid": "62",
+      "position": {
+        "x": "2629",
+        "y": "1250.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "I am become Death... Russian",
+      "pid": "63",
+      "position": {
+        "x": "2704",
+        "y": "1120.5"
+      }
+    },
+    {
+      "text": "[[Single Star System->One Star Arabic]]\n\n[[Binary Star System->Two Star Arabic]] ",
+      "links": [
+        {
+          "name": "Single Star System",
+          "link": "One Star Arabic",
+          "pid": "65"
+        },
+        {
+          "name": "Binary Star System",
+          "link": "Two Star Arabic",
+          "pid": "66"
+        }
+      ],
+      "name": "The Beginning Arabic",
+      "pid": "64",
+      "position": {
+        "x": "3601",
+        "y": "340.5"
+      }
+    },
+    {
+      "text": "[[Large Planet->Large Planet Arabic]]\n\n[[Small Planet->Small Planet Arabic]]",
+      "links": [
+        {
+          "name": "Large Planet",
+          "link": "Large Planet Arabic",
+          "pid": "67"
+        },
+        {
+          "name": "Small Planet",
+          "link": "Small Planet Arabic",
+          "pid": "68"
+        }
+      ],
+      "name": "One Star Arabic",
+      "pid": "65",
+      "position": {
+        "x": "3473",
+        "y": "511.5"
+      },
+      "tags": [
+        "single"
+      ]
+    },
+    {
+      "text": "[[Large Planet->Large Planet Arabic]]\n\n[[Small Planet->Small Planet Arabic]] ",
+      "links": [
+        {
+          "name": "Large Planet",
+          "link": "Large Planet Arabic",
+          "pid": "67"
+        },
+        {
+          "name": "Small Planet",
+          "link": "Small Planet Arabic",
+          "pid": "68"
+        }
+      ],
+      "name": "Two Star Arabic",
+      "pid": "66",
+      "position": {
+        "x": "3750",
+        "y": "512.5"
+      },
+      "tags": [
+        "binary"
+      ]
+    },
+    {
+      "text": "[[Gaia World->Gaia World Arabic]]\n\n[[Desert World->Desert World Arabic]]",
+      "links": [
+        {
+          "name": "Gaia World",
+          "link": "Gaia World Arabic",
+          "pid": "69"
+        },
+        {
+          "name": "Desert World",
+          "link": "Desert World Arabic",
+          "pid": "70"
+        }
+      ],
+      "name": "Large Planet Arabic",
+      "pid": "67",
+      "position": {
+        "x": "3337",
+        "y": "665.5"
+      },
+      "tags": [
+        "large"
+      ]
+    },
+    {
+      "text": "[[Tundra World->Tundra World Arabic]]\n\n[[Aquatic World->Aquatic World Arabic]]",
+      "links": [
+        {
+          "name": "Tundra World",
+          "link": "Tundra World Arabic",
+          "pid": "71"
+        },
+        {
+          "name": "Aquatic World",
+          "link": "Aquatic World Arabic",
+          "pid": "72"
+        }
+      ],
+      "name": "Small Planet Arabic",
+      "pid": "68",
+      "position": {
+        "x": "3868",
+        "y": "670.5"
+      },
+      "tags": [
+        "small"
+      ]
+    },
+    {
+      "text": "[[Mammals->Mammals Arabic]]\n\n[[Birds->Birds Arabic]]",
+      "links": [
+        {
+          "name": "Mammals",
+          "link": "Mammals Arabic",
+          "pid": "73"
+        },
+        {
+          "name": "Birds",
+          "link": "Birds Arabic",
+          "pid": "74"
+        }
+      ],
+      "name": "Gaia World Arabic",
+      "pid": "69",
+      "position": {
+        "x": "3202",
+        "y": "820.5"
+      },
+      "tags": [
+        "gaia"
+      ]
+    },
+    {
+      "text": "[[Lizards->Lizards Arabic]]\n\n[[Arachnids->Arachnids Arabic]]",
+      "links": [
+        {
+          "name": "Lizards",
+          "link": "Lizards Arabic",
+          "pid": "75"
+        },
+        {
+          "name": "Arachnids",
+          "link": "Arachnids Arabic",
+          "pid": "76"
+        }
+      ],
+      "name": "Desert World Arabic",
+      "pid": "70",
+      "position": {
+        "x": "3424",
+        "y": "821.5"
+      },
+      "tags": [
+        "desert"
+      ]
+    },
+    {
+      "text": "[[Mammals->MammalsT Arabic]]\n\n[[Aquatic Mammals->MammalsAT Arabic]]",
+      "links": [
+        {
+          "name": "Mammals",
+          "link": "MammalsT Arabic",
+          "pid": "77"
+        },
+        {
+          "name": "Aquatic Mammals",
+          "link": "MammalsAT Arabic",
+          "pid": "78"
+        }
+      ],
+      "name": "Tundra World Arabic",
+      "pid": "71",
+      "position": {
+        "x": "3731",
+        "y": "822.5"
+      },
+      "tags": [
+        "tundra"
+      ]
+    },
+    {
+      "text": "[[Big Fish->Big Fish Arabic]]\n\n[[Small Fish->Small Fish Arabic]]",
+      "links": [
+        {
+          "name": "Big Fish",
+          "link": "Big Fish Arabic",
+          "pid": "79"
+        },
+        {
+          "name": "Small Fish",
+          "link": "Small Fish Arabic",
+          "pid": "80"
+        }
+      ],
+      "name": "Aquatic World Arabic",
+      "pid": "72",
+      "position": {
+        "x": "3963",
+        "y": "823.5"
+      },
+      "tags": [
+        "aquatic"
+      ]
+    },
+    {
+      "text": "[[Do Nothing->Don't Look Up... Arabic]]\n\n[[Destroy it->Enlightenment Arabic]]",
+      "links": [
+        {
+          "name": "Do Nothing",
+          "link": "Don't Look Up... Arabic",
+          "pid": "81"
+        },
+        {
+          "name": "Destroy it",
+          "link": "Enlightenment Arabic",
+          "pid": "82"
+        }
+      ],
+      "name": "Mammals Arabic",
+      "pid": "73",
+      "position": {
+        "x": "3078",
+        "y": "975.5"
+      }
+    },
+    {
+      "text": "[[Clip their Wings->Safe and sorry Arabic]]\n\n[[Let them Soar->To Infinity... Arabic]] ",
+      "links": [
+        {
+          "name": "Clip their Wings",
+          "link": "Safe and sorry Arabic",
+          "pid": "83"
+        },
+        {
+          "name": "Let them Soar",
+          "link": "To Infinity... Arabic",
+          "pid": "84"
+        }
+      ],
+      "name": "Birds Arabic",
+      "pid": "74",
+      "position": {
+        "x": "3240",
+        "y": "975.5"
+      }
+    },
+    {
+      "text": "[[Common Enemy->Liberate Arabic]]\n\n[[No Enemy->There is only War Arabic]]",
+      "links": [
+        {
+          "name": "Common Enemy",
+          "link": "Liberate Arabic",
+          "pid": "85"
+        },
+        {
+          "name": "No Enemy",
+          "link": "There is only War Arabic",
+          "pid": "86"
+        }
+      ],
+      "name": "Lizards Arabic",
+      "pid": "75",
+      "position": {
+        "x": "3401",
+        "y": "975.5"
+      }
+    },
+    {
+      "text": "[[Accelerate->Incy wincy spider... Arabic]]\n\n[[Start Over->Menu Screen]] ",
+      "links": [
+        {
+          "name": "Accelerate",
+          "link": "Incy wincy spider... Arabic",
+          "pid": "87"
+        },
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Arachnids Arabic",
+      "pid": "76",
+      "position": {
+        "x": "3531",
+        "y": "975.5"
+      }
+    },
+    {
+      "text": "[[Increase Food->Sloth and Greed Arabic]]\n\n[[Don't Interfere->Survival Arabic]]",
+      "links": [
+        {
+          "name": "Increase Food",
+          "link": "Sloth and Greed Arabic",
+          "pid": "89"
+        },
+        {
+          "name": "Don't Interfere",
+          "link": "Survival Arabic",
+          "pid": "88"
+        }
+      ],
+      "name": "MammalsT Arabic",
+      "pid": "77",
+      "position": {
+        "x": "3659",
+        "y": "974.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]] \n\n[[Stay the Course->Adaptable Arabic]] ",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        },
+        {
+          "name": "Stay the Course",
+          "link": "Adaptable Arabic",
+          "pid": "90"
+        }
+      ],
+      "name": "MammalsAT Arabic",
+      "pid": "78",
+      "position": {
+        "x": "3789",
+        "y": "974.5"
+      }
+    },
+    {
+      "text": "[[Seed Clues->Early Greatness Arabic]]\n\n[[Natural Discovery->Slow and Steady Arabic]]",
+      "links": [
+        {
+          "name": "Seed Clues",
+          "link": "Early Greatness Arabic",
+          "pid": "91"
+        },
+        {
+          "name": "Natural Discovery",
+          "link": "Slow and Steady Arabic",
+          "pid": "92"
+        }
+      ],
+      "name": "Big Fish Arabic",
+      "pid": "79",
+      "position": {
+        "x": "3916",
+        "y": "976.5"
+      }
+    },
+    {
+      "text": "[[Terraform->I am become Death... Arabic]]\n\n[[Don't Interfere->Witness Me Arabic]]",
+      "links": [
+        {
+          "name": "Terraform",
+          "link": "I am become Death... Arabic",
+          "pid": "94"
+        },
+        {
+          "name": "Don't Interfere",
+          "link": "Witness Me Arabic",
+          "pid": "93"
+        }
+      ],
+      "name": "Small Fish Arabic",
+      "pid": "80",
+      "position": {
+        "x": "4063",
+        "y": "979.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Don't Look Up... Arabic",
+      "pid": "81",
+      "position": {
+        "x": "2985",
+        "y": "1112.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Enlightenment Arabic",
+      "pid": "82",
+      "position": {
+        "x": "3100",
+        "y": "1193.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Safe and sorry Arabic",
+      "pid": "83",
+      "position": {
+        "x": "3264",
+        "y": "1133.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "To Infinity... Arabic",
+      "pid": "84",
+      "position": {
+        "x": "3206",
+        "y": "1331.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Liberate Arabic",
+      "pid": "85",
+      "position": {
+        "x": "3351",
+        "y": "1250.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "There is only War Arabic",
+      "pid": "86",
+      "position": {
+        "x": "3436",
+        "y": "1136.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Incy wincy spider... Arabic",
+      "pid": "87",
+      "position": {
+        "x": "3561",
+        "y": "1137.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Survival Arabic",
+      "pid": "88",
+      "position": {
+        "x": "3637",
+        "y": "1252.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Sloth and Greed Arabic",
+      "pid": "89",
+      "position": {
+        "x": "3716",
+        "y": "1137.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Adaptable Arabic",
+      "pid": "90",
+      "position": {
+        "x": "3823",
+        "y": "1255.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Early Greatness Arabic",
+      "pid": "91",
+      "position": {
+        "x": "3873",
+        "y": "1137.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Slow and Steady Arabic",
+      "pid": "92",
+      "position": {
+        "x": "4007",
+        "y": "1138.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "Witness Me Arabic",
+      "pid": "93",
+      "position": {
+        "x": "4098",
+        "y": "1256.5"
+      }
+    },
+    {
+      "text": "[[Start Over->Menu Screen]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Menu Screen",
+          "pid": "32"
+        }
+      ],
+      "name": "I am become Death... Arabic",
+      "pid": "94",
+      "position": {
+        "x": "4167",
+        "y": "1136.5"
       }
     }
   ],
   "name": "God Complex",
-  "startnode": "1",
+  "startnode": "32",
   "creator": "Twine",
   "creator-version": "2.3.16",
   "ifid": "2A15D058-12C1-4094-AB57-D278708B43C2"
 }
+

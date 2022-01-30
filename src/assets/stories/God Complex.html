@@ -1,0 +1,216 @@
+<html>
+  <head>
+    <title>God Complex</title>
+    <script type="text/javascript">
+      /**
+       * Twison - Twine 2 JSON Export Story Format
+       *
+       * Copyright (c) 2015 Em Walker
+       * https://lazerwalker.com
+       *
+       * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+       * associated documentation files (the "Software"), to deal in the Software without restriction,
+       * including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+       * and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
+       * subject to the following conditions:
+       *
+       * The above copyright notice and this permission notice shall be included in all copies or substantial
+       * portions of the Software.
+       *
+       * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+       * LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+       * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+       * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+       * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+       */
+      var Twison={extractLinksFromText:function(t){var n=t.match(/\[\[.+?\]\]/g);return n?n.map(function(t){var n=t.match(/\[\[(.*?)\-\&gt;(.*?)\]\]/);return n?{name:n[1],link:n[2]}:(t=t.substring(2,t.length-2),{name:t,link:t})}):null},extractPropsFromText:function(t){var n,r={},e=!1;const a=/\{\{((\s|\S)+?)\}\}((\s|\S)+?)\{\{\/\1\}\}/gm;for(;null!==(n=a.exec(t));){const o=n[1],s=n[3].replace(/(\r\n|\n|\r)/gm,""),i=this.extractPropsFromText(s);r[o]=null!==i?i:s,e=!0}return e?r:null},convertPassage:function(t){var n={text:t.innerHTML},r=Twison.extractLinksFromText(n.text);r&&(n.links=r);const e=Twison.extractPropsFromText(n.text);if(e&&(n.props=e),["name","pid","position","tags"].forEach(function(r){var e=t.attributes[r].value;e&&(n[r]=e)}),n.position){var a=n.position.split(",");n.position={x:a[0],y:a[1]}}return n.tags&&(n.tags=n.tags.split(" ")),n},convertStory:function(t){var n=t.getElementsByTagName("tw-passagedata"),r=Array.prototype.slice.call(n).map(Twison.convertPassage),e={passages:r};["name","startnode","creator","creator-version","ifid"].forEach(function(n){var r=t.attributes[n].value;r&&(e[n]=r)});var a={};return e.passages.forEach(function(t){a[t.name]=t.pid}),e.passages.forEach(function(t){t.links&&t.links.forEach(function(t){t.pid=a[t.link],t.pid||(t.broken=!0)})}),e},convert:function(){var t=document.getElementsByTagName("tw-storydata")[0],n=JSON.stringify(Twison.convertStory(t),null,2);document.getElementById("output").innerHTML=n}};window.Twison=Twison;
+    </script>
+  </head>
+  <body>
+    <pre id="output"></pre>
+    <div id="storyData" style="display: none;">
+      <tw-storydata name="God Complex" startnode="32" creator="Twine" creator-version="2.3.16" ifid="2A15D058-12C1-4094-AB57-D278708B43C2" zoom="1" format="Twison" format-version="0.0.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="The Beginning" tags="" position="860,369" size="100,100">As the entity awakes, understanding dimly itching at the back of its being, it is confused. Everything is empty, and that isn’t right. It remembers there being... something. With that memory comes a flicker, and then a spark, and then a name... With the name comes a feeling of self, of purpose, and you remember why you were put here: To create something new, a new world with new rules. And as with all ideas, it has to begin with a spark, a star. The first [choice](each_choice_will_have_an_impact_on_the_ending_of_your_story).
+
+[[Single Star System-&gt;One Star]]
+
+[[Binary Star System-&gt;Two Star]] 
+</tw-passagedata><tw-passagedata pid="2" name="One Star" tags="single" position="739,518" size="100,100">A simple choice is often the most elegant. So you fuse the necessary elements together to create the burning furnace of a single star. The foundation now complete, the scenery must be added. You lay the background carpeting of stars and galaxies that will be visible from your future world. And then the largely decorative planets in their various orbits to furnish the solar system. With this complete, you turn your mind to the object of your existence: The planet you must make. Large or small? A larger planet will have more room for its species to grow and prosper, more resources. However, the larger gravitational pull could cause problems down the line with rogue [celestial bodies](Meteors,_comets_etc.) Smaller would lessen the likelihood of such an event but would limit the space and resources for the inhabitants of your planet. 
+
+
+[[Large Planet-&gt;Large Planet]]
+
+[[Small Planet-&gt;Small Planet]]
+</tw-passagedata><tw-passagedata pid="3" name="Two Star" tags="binary" position="980,518" size="100,100">A single star, although a classic, has been done before. Time for innovation. A [Binary System](Binary_stars_are_two_stars_orbiting_a_common_center_of_mass). Two stars, two Suns, to gaze up at. The foundation now complete, the scenery must be added. You lay the background carpeting of stars and galaxies that will be visible from your future world. And then the largely decorative planets in their various orbits to furnish the solar system. With this complete, you turn your mind to the object of your existence: The planet you must make. Large or small? A larger planet will have more room for its species to grow and prosper, more resources. However, the larger gravitational pull could cause problems down the line with rogue [celestial bodies](Asteroids,_meteors,_etc). Smaller would lessen the likelihood of such an event but would limit the space and resources for the inhabitants of your planet.
+
+[[Large Planet-&gt;Large Planet]]
+
+[[Small Planet-&gt;Small Planet]] 
+</tw-passagedata><tw-passagedata pid="4" name="Large Planet" tags="large" position="684,673" size="100,100">Concentrating once more, you pull in the discharge of particles from the creation of the furnishings of your burgeoning reality and compact them. Piling together the rock and metal and dust until you have created a large and cratered spheroid. Grey and dull, illuminated by your centrepiece, it pulls at you. A world like this could be a [Gaia](Gaia_was_the_Greek_goddess_of_Earth,_mother_of_all_life), verdant  green, teeming with life. A world like this would be more comfortable to inhabit, but more difficult to develop. Or it could be a relatively barren desert, where life has to fight against the planet to survive. Life would be harsh. It would be unfair. But the species that evolve here would be hardy, strong.
+
+[[Gaia World-&gt;Gaia World]]
+
+[[Desert World-&gt;Desert World]]</tw-passagedata><tw-passagedata pid="5" name="Small Planet" tags="small" position="1010,674" size="100,100">Concentrating once more, you pull in the discharge of particles from the creation of the furnishings of your burgeoning reality and compact them. Piling together the rock and metal and dust until you have created a small but dense planet. This planet is mostly smooth, with small channels and cracks breaking up the otherwise featureless landscape. With this world you see visions of two possibilities. A cold and unforgiving [Tundra](tundra_is_a_type_of_biome_where_the_tree_growth_is_hindered_by_low_temperatures_and_short_growing_seasons) World, or a warm and plentiful Ocean World. The former would condition the inhabitants to be hardy, but sparse. The latter, a plentiful aquatic species. However, one that might find difficulty in utilising resources. 
+
+[[Tundra World-&gt;Tundra World]]
+
+[[Aquatic World-&gt;Aquatic World]]</tw-passagedata><tw-passagedata pid="6" name="Gaia World" tags="gaia" position="515,803" size="100,100">This is seeding a world in the most literal of senses: carpeting the rock with soil, [loam](a_fertile_soil_of_clay_and_sand_containing_humus) and vegetation. You begin with the atmosphere, rich in Carbon Dioxide and Nitrogen, essential for plant life. Your planet rotates around the system several hundred times before your task is done. And as it nears completion you take a moment to admire your handiwork. Luscious, thick forests and jungles cover the planet from pole to pole. Rare clearings give sight to the rivers and lakes that span the world and provide essential water to the multitudes of plants that now call this rock home. At the edge of your perception you sense an asteroid tumbling through space, bringing you from your reverie. It is time to choose what kind of animal life will begin to roam these forests.
+
+[[Mammals-&gt;Mammals]]
+
+[[Birds-&gt;Birds]]</tw-passagedata><tw-passagedata pid="7" name="Desert World" tags="desert" position="704,806" size="100,100">It needs to be dry. It needs to be arid. The atmosphere is thin, the ozone layer similarly so. A carpet of silicon and powdered rock covers the blemished surface. Many of the craters become dunes, as gentle winds spread and shift the sands across your new creation. What little vegetation grows here is tough and efficient, maximising its space and energy usage for survival. Such a world will require a hardy animal species to thrive here. One that will not mind the heat and the light. Or maybe it will thrive beneath the surface, coming out only when necessary.
+
+[[Lizards-&gt;Lizards]]
+
+[[Arachnids-&gt;Arachnids]]</tw-passagedata><tw-passagedata pid="8" name="Tundra World" tags="tundra" position="983,801" size="100,100">Placing your new world in the cooler edges of the habitable zone, you create a dry atmosphere with a middling ozone layer, and proceed to cover the planet in snow and ice. The forests of this world will keep their leaves all year round, and will be resistant to the cold weather and harsh conditions. In the warmer seasons, some of the lakes and rivers may thaw and some of the snow will melt, but these will be brief respites in an otherwise [whiteout](a_surface_weather_condition_in_a_snow-covered_area_in_which_no_object_casts_a_shadow,_the_horizon_cannot_be_seen,_and_only_dark_objects_are_discernible) world. The creatures of this world will have to brave the cold with strength. They will have to conserve their energy and maybe even go into extended periods of hibernation. But will they do this on land? Or Underwater? Or Perhaps even both?  
+
+[[Mammals-&gt;MammalsT]]
+
+[[Aquatic Mammals-&gt;MammalsAT]]</tw-passagedata><tw-passagedata pid="9" name="Aquatic World" tags="aquatic" position="1194,794" size="100,100">You craft an Ocean world, where the trenches and cracks of this small sphere will be covered by leagues of water. The planet will gain considerable size compared to if you were to seed the world with land-based terrain. You muster a strong atmosphere of Oxygen and Nitrogen, coupled with a relatively thin ozone layer to ensure that the oceans are temperate, but not boiling. Compared to the other projects you could have undertaken, this is perhaps the most simple after the atmosphere is complete. You cover the planet in fathoms and fathoms of water. In the shallower parts you lay vast coral reefs and ocean plant life and in the deepest trenches are volcanic vents that spread helpful bacteria. The dominant species here will have to rule either the shallows or the deeps to thrive, and as such size is the key factor. 
+
+[[Big Fish-&gt;Big Fish]]
+
+[[Small Fish-&gt;Small Fish]]
+</tw-passagedata><tw-passagedata pid="10" name="Mammals" tags="" position="370,964" size="100,100">As the asteroid hurtles through the void, your consciousness becomes aware that it will impact with your creation should you not intervene. Thus you are presented with something of a dilemma; you know that if you do nothing, everything you have created thus far may perish, but from the ashes may rise something even more spectacular. But if you do use your infinite power to destroy the asteroid, you might release something worse onto your creation at a later date.
+
+[[Do Nothing-&gt;Don&#39;t Look Up...]]
+
+[[Destroy it-&gt;Enlightenment]]</tw-passagedata><tw-passagedata pid="11" name="Birds" tags="" position="524,961" size="100,100">As the asteroid flies through your solar system, soaring like the avians you have painstakingly sculpted, you realise that a species such as this will always wish to soar higher and fly farther. Like an old fable that seems from a dream from a previous existence, you see an image of a boy flying too close to the fire and light in the sky above and crash back to the ground in flames. A sudden pang of fear crashes through your consciousness like icy fire, and you wonder if flight is such a good idea. If you take that power away from your creation however, might that only encourage them to try harder to fly? 
+
+[[Clip their Wings-&gt;Safe and sorry]]
+
+[[Let them Soar-&gt;To Infinity...]] </tw-passagedata><tw-passagedata pid="12" name="Lizards" tags="" position="647,962" size="100,100">Hot world, cold blood. Scaled and low to the ground. Perfect for an arid world like this. Heightened senses of smell and taste as the eyes need to be protected from sand and light. This species will make the most of this world, and dominate the lesser species it will share the world with, as the vegetation will not provide enough nutrients on its own. It occurs to you that such a predatory species might become warful, and likely to destroy themselves in fire and blood. On the other hand, if given a common cause or a common enemy, maybe they will band together in an unbreakable bond of camaraderie and forge a path to greater heights? Or maybe this enemy would simply wipe out your initial creation.
+
+[[Common Enemy-&gt;Liberate]]
+
+[[No Enemy-&gt;There is only War]]
+</tw-passagedata><tw-passagedata pid="13" name="Arachnids" tags="" position="769,963" size="100,100">Burrowing beneath the surface of an unforgiving world, creating complex tunnels and burrows for its kind to thrive and hunt in. Your eight legged creations skitter across the planet, building intricate colonies and advancing at astonishing rates. Such is their progress that you realise they are close to becoming sentient of their own accord. Although this is not how you had planned it, this is an excellent development. But since your tenure hasn’t yet ended, you are faced with a conundrum: do you stay and advance them beyond sentience and aid their civilisation until your tenure is over? This would accelerate them into the stars far sooner than they would normally achieve, but it might also lead them to either rely on you or resent you. Alternatively you could leave early and begin again, a new planet. A new reality.
+
+[[Accelerate-&gt;Incy wincy spider...]]
+
+[[Start Over-&gt;Menu Screen]] </tw-passagedata><tw-passagedata pid="14" name="MammalsT" tags="" position="910,961" size="100,100">Thick-furred and furiously hot-blooded, the creatures that roam the surface of this arctic landscape are large and ponderous. Only expending energy when necessary, making the most of every meal: true omnivores. In some ways they are the absolute apex predators, in others as docile as the lowliest prey. This duality of nature will serve them well once they reach sentience, provided there are enough of them to create societies. However, due to the extremes of this world, the population is small and does not appear to be growing. If you interfere and create more food perhaps this will increase the population of your burgeoning charges. Or perhaps it will imbalance the system and lead to its downfall.
+
+[[Increase Food-&gt;Sloth and Greed]]
+
+[[Don&#39;t Interfere-&gt;Survival]]</tw-passagedata><tw-passagedata pid="15" name="MammalsAT" tags="" position="1045,960" size="100,100">Covered in protective layers of blubber and sleek, almost oily skin, these aquatic creatures spend most of their lives in the frigid but food-rich seas and lakes of this frozen rock. However, since they have no gills, they must regularly surface for air and expose themselves to the frigid surface. As a species that does not truly occupy the land nor the sea, they may find it difficult to ever leave this world lest something radically change in their physiology. And at that point it might be more prudent to simply start over. But to underestimate a species that can exist in two worlds at once may be a rueful mistake, and as such, perhaps it would be better to stay the course and grant them sentience as you had originally planned.
+
+[[Start Over-&gt;Menu Screen]] 
+
+[[Stay the Course-&gt;Adaptable]] </tw-passagedata><tw-passagedata pid="16" name="Big Fish" tags="" position="1152,959" size="100,100">In the deep waters of the ocean, size matters. And thanks to the lower gravitational stresses afforded by buoyancy, you are able to create leviathans. Tremendously sized aquatic beasts drift through the ocean with a grace that belies their profiles. Tremendously long-lived and hardy, you know these creatures will be among the wisest of creatures when they achieve sentience. However, the slightly sedentary nature of their lives could lead them to be a slow-developing race, One that perhaps could benefit from some prompting down the line. If you were to leave clues to spur advancements across the world and the immediate solar system, it could perhaps help them achieve a greatness they would otherwise not achieve. On the other hand, accelerating them unnaturally could have adverse effects on their society, destabilising an otherwise extraordinarily stable species. 
+
+
+
+[[Seed Clues-&gt;Early Greatness]]
+
+[[Natural Discovery-&gt;Slow and Steady]]</tw-passagedata><tw-passagedata pid="17" name="Small Fish" tags="" position="1277,962" size="100,100">In amongst the coral reefs of the shallower waters, flitting from rock to rock, plant to plant. This is the day-to-day life of these aquatic missiles. Small and fast, both in terms of physiology and lifespan, this species burns fast and bright. As such, when they gain sentience it seems likely that any society will be engineered towards the collective rather than the individual. There is however an outside possibility that the species may become overly combative with itself if not given enough space to grow, for the shallows are confined and claustrophobic. One solution to this might be to further change the geology of the planet to create more shallows. But to do this with life already seeded is spectacularly dangerous.
+
+[[Terraform-&gt;I am become Death...]]
+
+[[Don&#39;t Interfere-&gt;Witness Me]]</tw-passagedata><tw-passagedata pid="18" name="Don&#39;t Look Up..." tags="" position="256,1139" size="100,100">As the asteroid tumbles lazily towards your planet, you do nothing. You watch with grim fascination as it impacts the surface of your world, and the fascination turns to horror when you see it crack and splinter with the impact. Continents simply fly away, torn from the planet violently as if torn off by your own hand. You know with a melancholy certainty that life will never bloom on this planet again.
+
+[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="19" name="Enlightenment" tags="" position="373,1246" size="100,100">With a thought, you crack the asteroid, fragmenting it into pieces small enough to be burned up in the atmosphere or to land more or less harmlessly in the jungles below. Satisfied with your work, you move on to the final stage of the great experiment: Sentience. Time for your species to become self aware. Time for them to follow in the footsteps of giants. Time for Enlightenment. 
+
+[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="20" name="Liberate" tags="" position="588,1265" size="100,100">With a common enemy, an enemy that was close enough in strength but not insurmountable, your reptiles fought. It was bloody, and it was long. But they fought together. And they emerged from their crucible triumphant, and led a liberation of the stars, seeking out oppressed or downtrodden species and lifting them up from under their oppressors.
+
+[[Start Over-&gt;Menu Screen]]
+</tw-passagedata><tw-passagedata pid="21" name="There is only War" tags="" position="681,1118" size="100,100">Without a common enemy to fight, you watch with dismay as the lizards continue to battle for dominance of territory and resources on their barren world. With what few advances they make, they utilise as weapons against their own kind. A route that will inevitably lead to the destruction of their own species. A regrettable fate indeed.
+
+[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="22" name="Safe and sorry" tags="" position="534,1127" size="100,100">Better to be safe than sorry. A flightless bird is less likely to fly the coop, less likely to burn up in its own ambitions. At least, that is what you thought when you robbed the birds of their flight. However, a flightless bird is less likely to look up. And you watch on with mild frustration as the species stagnates and seems content to stay the same, despite the gift of consciousness.
+
+[[Start Over-&gt;Menu Screen]]
+</tw-passagedata><tw-passagedata pid="23" name="Incy wincy spider..." tags="" position="794,1118" size="100,100">As the arachnids achieve their sentience without your guidance or prompting, you decide to stay and guide them as they awaken further. With your help, they accelerate into the galaxy with technologies that would usually take millenia to discover and master. However, all the while you aid them, their predatory natures have turned their eyes to you. To gain your power. And by the time you realise it, it’s far too late…
+
+[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="24" name="Sloth and Greed" tags="" position="946,1119" size="100,100">You increase the number of available food for your species. And in the short term, your solution appears to have worked: the population skyrockets and the civilisation grows rapidly. However, you begin to notice that without the challenge inherent with making your own way, this species has evolved to become complacent, greedy and sedentary. And they do not appear to be changing anytime soon. 
+
+[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="25" name="Survival" tags="" position="884,1279" size="100,100">Patience is a virtue when creating a civilisation. And though it takes many centuries after gaining sentience, your species finally advances to a point that food shortages become less and less of a problem. The population starts to expand at an exponential rate, and with their now hard-wired ability to survive in the harshest of conditions, they spread to the stars triumphant in their achievements. 
+
+[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="26" name="Adaptable" tags="" position="1029,1267" size="100,100">Faith in your creation drives you to stay and complete the experiment. Granting the aquatic mammals intelligence, you watch with prideful fascination as they create new and fantastic technologies that only one who lives in two worlds could devise. It is tough going, but soon they surpass your wildest dreams. Becoming the dominant species not only on their own planet, but countless others.
+
+[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="27" name="Early Greatness" tags="" position="1088,1113" size="100,100">Although not a typical procedure by any means, you begin leaving caches of information all over the planet, detailing technologies and philosophies that would usually take species centuries to discover on their own. Fearing that you may have overstepped your mark, you observe with some anxiety as your gentle giants decipher the clues and fragments you left for them. Thankfully however, being long-lived and wise, they utilise the new technologies with restraint, and accelerate themselves to early greatness.
+
+[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="28" name="Slow and Steady" tags="" position="1212,1114" size="100,100">Slow and steady wins the race; a phrase that seems awfully familiar. So you refrain from giving this new species a leg up, trusting them to overcome their challenges and reach the stars. And to your relief, and pride, they do. It is as graceful an ascension as you could have expected from such wondrous creatures.
+
+[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="29" name="I am become Death..." tags="" position="1372,1115" size="100,100">In your hubris, you attempt to change the surface of the planet to better suit your small charges. However, you underestimate the complexity of such a task, or maybe you overestimate your power. And in trying to change the surface of your world, you cause a seismic chain reaction. You watch with horror as your world fractures and breaks, destroying the species you tried to save.
+
+[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="30" name="Witness Me" tags="" position="1285,1240" size="100,100">Sparkly and Silver! Their lives are short, yes. Their environment is claustrophobic. Individuality is a rare commodity. But together they are strong; each a part of a greater whole. And they explode onto the galactic stage with the triumphant detonation of a firework. It is a firework that, unlike the individuals of the species, is anything but short-lived.
+
+[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="31" name="To Infinity..." tags="" position="443,1376" size="100,100">To stop these beautiful creatures would be an affront to their great potential. Progress always carries with it the risk of failure, and although their thirst for progress may increase their chance of failing, it is not for you to decide. And sure enough; after the granting of sentience, as you watch from afar, this fantastic avian species skyrockets itself into the stars with a speed and passion hitherto unseen in your life. And yes, they failed many times. But ultimately they not only succeeded, but triumphed.
+
+[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="32" name="Menu Screen" tags="" position="2112,124" size="100,100">[[Wake up-&gt;The Beginning]]
+
+[[Проснись-&gt;The Beginning Russian]]
+
+[[استيقظ-&gt;The Beginning Arabic]]</tw-passagedata><tw-passagedata pid="33" name="The Beginning Russian" tags="" position="2112,360" size="100,100">[[Single Star System-&gt;One Star Russian]]
+
+[[Binary Star System-&gt;Two Star Russian]] </tw-passagedata><tw-passagedata pid="34" name="One Star Russian" tags="single" position="1972,506.5" size="100,100">[[Large Planet-&gt;Large Planet Russian]]
+
+[[Small Planet-&gt;Small Planet Russian]]</tw-passagedata><tw-passagedata pid="35" name="Two Star Russian" tags="binary" position="2248,501.5" size="100,100">[[Large Planet-&gt;Large Planet Russian]]
+
+[[Small Planet-&gt;Small Planet Russian]] </tw-passagedata><tw-passagedata pid="36" name="Large Planet Russian" tags="large" position="1907,659.5" size="100,100">[[Gaia World-&gt;Gaia World Russian]]
+
+[[Desert World-&gt;Desert World Russian]]</tw-passagedata><tw-passagedata pid="37" name="Small Planet Russian" tags="small" position="2316,662.5" size="100,100">[[Tundra World-&gt;Tundra World Russian]]
+
+[[Aquatic World-&gt;Aquatic World Russian]]</tw-passagedata><tw-passagedata pid="38" name="Gaia World Russian" tags="gaia" position="1751,819.5" size="100,100">[[Mammals-&gt;Mammals Russian]]
+
+[[Birds-&gt;Birds Russian]]</tw-passagedata><tw-passagedata pid="39" name="Desert World Russian" tags="desert" position="1943,818.5" size="100,100">[[Lizards-&gt;Lizards Russian]]
+
+[[Arachnids-&gt;Arachnids Russian]]</tw-passagedata><tw-passagedata pid="40" name="Tundra World Russian" tags="tundra" position="2280,821.5" size="100,100">[[Mammals-&gt;MammalsT Russian]]
+
+[[Aquatic Mammals-&gt;MammalsAT Russian]]</tw-passagedata><tw-passagedata pid="41" name="Aquatic World Russian" tags="aquatic" position="2499,820.5" size="100,100">[[Big Fish-&gt;Big Fish Russian]]
+
+[[Small Fish-&gt;Small Fish Russian]]</tw-passagedata><tw-passagedata pid="42" name="Mammals Russian" tags="" position="1640,962.5" size="100,100">[[Do Nothing-&gt;Don&#39;t Look Up... Russian]]
+
+[[Destroy it-&gt;Enlightenment Russian]]</tw-passagedata><tw-passagedata pid="43" name="Birds Russian" tags="" position="1786,960.5" size="100,100">[[Clip their Wings-&gt;Safe and sorry Russian]]
+
+[[Let them Soar-&gt;To Infinity... Russian]] </tw-passagedata><tw-passagedata pid="44" name="Lizards Russian" tags="" position="1927,960.5" size="100,100">[[Common Enemy-&gt;Liberate Russian]]
+
+[[No Enemy-&gt;There is only War Russian]]</tw-passagedata><tw-passagedata pid="45" name="Arachnids Russian" tags="" position="2070,964.5" size="100,100">[[Accelerate-&gt;Incy wincy spider... Russian]]
+
+[[Start Over-&gt;Menu Screen]] </tw-passagedata><tw-passagedata pid="46" name="MammalsT Russian" tags="" position="2215,962.5" size="100,100">[[Increase Food-&gt;Sloth and Greed Russian]]
+
+[[Don&#39;t Interfere-&gt;Survival Russian]]</tw-passagedata><tw-passagedata pid="47" name="MammalsAT Russian" tags="" position="2347,963.5" size="100,100">[[Start Over-&gt;Menu Screen]] 
+
+[[Stay the Course-&gt;Adaptable Russian]] </tw-passagedata><tw-passagedata pid="48" name="Big Fish Russian" tags="" position="2477,963.5" size="100,100">[[Seed Clues-&gt;Early Greatness Russian]]
+
+[[Natural Discovery-&gt;Slow and Steady Russian]]</tw-passagedata><tw-passagedata pid="49" name="Small Fish Russian" tags="" position="2612,961.5" size="100,100">[[Terraform-&gt;I am become Death... Russian]]
+
+[[Don&#39;t Interfere-&gt;Witness Me Russian]]</tw-passagedata><tw-passagedata pid="50" name="Don&#39;t Look Up... Russian" tags="" position="1553,1110.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="51" name="Enlightenment Russian" tags="" position="1667,1200.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="52" name="Safe and sorry Russian" tags="" position="1809,1117.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="53" name="To Infinity... Russian" tags="" position="1748,1351.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="54" name="Liberate Russian" tags="" position="1895,1249.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="55" name="There is only War Russian" tags="" position="1975,1122.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="56" name="Incy wincy spider... Russian" tags="" position="2098,1122.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="57" name="Survival Russian" tags="" position="2199,1257.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="58" name="Sloth and Greed Russian" tags="" position="2252,1120.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="59" name="Adaptable Russian" tags="" position="2354,1251.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="60" name="Early Greatness Russian" tags="" position="2401,1117.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="61" name="Slow and Steady Russian" tags="" position="2538,1119.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="62" name="Witness Me Russian" tags="" position="2629,1250.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="63" name="I am become Death... Russian" tags="" position="2704,1120.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="64" name="The Beginning Arabic" tags="" position="3601,340.5" size="100,100">[[Single Star System-&gt;One Star Arabic]]
+
+[[Binary Star System-&gt;Two Star Arabic]] </tw-passagedata><tw-passagedata pid="65" name="One Star Arabic" tags="single" position="3473,511.5" size="100,100">[[Large Planet-&gt;Large Planet Arabic]]
+
+[[Small Planet-&gt;Small Planet Arabic]]</tw-passagedata><tw-passagedata pid="66" name="Two Star Arabic" tags="binary" position="3750,512.5" size="100,100">[[Large Planet-&gt;Large Planet Arabic]]
+
+[[Small Planet-&gt;Small Planet Arabic]] </tw-passagedata><tw-passagedata pid="67" name="Large Planet Arabic" tags="large" position="3337,665.5" size="100,100">[[Gaia World-&gt;Gaia World Arabic]]
+
+[[Desert World-&gt;Desert World Arabic]]</tw-passagedata><tw-passagedata pid="68" name="Small Planet Arabic" tags="small" position="3868,670.5" size="100,100">[[Tundra World-&gt;Tundra World Arabic]]
+
+[[Aquatic World-&gt;Aquatic World Arabic]]</tw-passagedata><tw-passagedata pid="69" name="Gaia World Arabic" tags="gaia" position="3202,820.5" size="100,100">[[Mammals-&gt;Mammals Arabic]]
+
+[[Birds-&gt;Birds Arabic]]</tw-passagedata><tw-passagedata pid="70" name="Desert World Arabic" tags="desert" position="3424,821.5" size="100,100">[[Lizards-&gt;Lizards Arabic]]
+
+[[Arachnids-&gt;Arachnids Arabic]]</tw-passagedata><tw-passagedata pid="71" name="Tundra World Arabic" tags="tundra" position="3731,822.5" size="100,100">[[Mammals-&gt;MammalsT Arabic]]
+
+[[Aquatic Mammals-&gt;MammalsAT Arabic]]</tw-passagedata><tw-passagedata pid="72" name="Aquatic World Arabic" tags="aquatic" position="3963,823.5" size="100,100">[[Big Fish-&gt;Big Fish Arabic]]
+
+[[Small Fish-&gt;Small Fish Arabic]]</tw-passagedata><tw-passagedata pid="73" name="Mammals Arabic" tags="" position="3078,975.5" size="100,100">[[Do Nothing-&gt;Don&#39;t Look Up... Arabic]]
+
+[[Destroy it-&gt;Enlightenment Arabic]]</tw-passagedata><tw-passagedata pid="74" name="Birds Arabic" tags="" position="3240,975.5" size="100,100">[[Clip their Wings-&gt;Safe and sorry Arabic]]
+
+[[Let them Soar-&gt;To Infinity... Arabic]] </tw-passagedata><tw-passagedata pid="75" name="Lizards Arabic" tags="" position="3401,975.5" size="100,100">[[Common Enemy-&gt;Liberate Arabic]]
+
+[[No Enemy-&gt;There is only War Arabic]]</tw-passagedata><tw-passagedata pid="76" name="Arachnids Arabic" tags="" position="3531,975.5" size="100,100">[[Accelerate-&gt;Incy wincy spider... Arabic]]
+
+[[Start Over-&gt;Menu Screen]] </tw-passagedata><tw-passagedata pid="77" name="MammalsT Arabic" tags="" position="3659,974.5" size="100,100">[[Increase Food-&gt;Sloth and Greed Arabic]]
+
+[[Don&#39;t Interfere-&gt;Survival Arabic]]</tw-passagedata><tw-passagedata pid="78" name="MammalsAT Arabic" tags="" position="3789,974.5" size="100,100">[[Start Over-&gt;Menu Screen]] 
+
+[[Stay the Course-&gt;Adaptable Arabic]] </tw-passagedata><tw-passagedata pid="79" name="Big Fish Arabic" tags="" position="3916,976.5" size="100,100">[[Seed Clues-&gt;Early Greatness Arabic]]
+
+[[Natural Discovery-&gt;Slow and Steady Arabic]]</tw-passagedata><tw-passagedata pid="80" name="Small Fish Arabic" tags="" position="4063,979.5" size="100,100">[[Terraform-&gt;I am become Death... Arabic]]
+
+[[Don&#39;t Interfere-&gt;Witness Me Arabic]]</tw-passagedata><tw-passagedata pid="81" name="Don&#39;t Look Up... Arabic" tags="" position="2985,1112.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="82" name="Enlightenment Arabic" tags="" position="3100,1193.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="83" name="Safe and sorry Arabic" tags="" position="3264,1133.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="84" name="To Infinity... Arabic" tags="" position="3206,1331.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="85" name="Liberate Arabic" tags="" position="3351,1250.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="86" name="There is only War Arabic" tags="" position="3436,1136.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="87" name="Incy wincy spider... Arabic" tags="" position="3561,1137.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="88" name="Survival Arabic" tags="" position="3637,1252.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="89" name="Sloth and Greed Arabic" tags="" position="3716,1137.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="90" name="Adaptable Arabic" tags="" position="3823,1255.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="91" name="Early Greatness Arabic" tags="" position="3873,1137.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="92" name="Slow and Steady Arabic" tags="" position="4007,1138.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="93" name="Witness Me Arabic" tags="" position="4098,1256.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata><tw-passagedata pid="94" name="I am become Death... Arabic" tags="" position="4167,1136.5" size="100,100">[[Start Over-&gt;Menu Screen]]</tw-passagedata></tw-storydata>
+    </div>
+    <script>
+      Twison.convert();
+    </script>
+  </body>
+</html>

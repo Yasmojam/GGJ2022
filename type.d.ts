@@ -10,6 +10,7 @@ type Passage = {
   links: Link[];
   name: string;
   pid: string;
+  tags?: string[];
 };
 
 type Story = {
