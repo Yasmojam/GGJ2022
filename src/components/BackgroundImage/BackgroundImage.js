@@ -2,10 +2,10 @@
 import './BackgroundImage.scss';
 import LazyLoad from 'react-lazyload';
 
-const BackgroundImage = ({ src }) => {
+const BackgroundImage = ({ src, height }) => {
     return (
         <div className="BackgroundImage">
-            <LazyLoad height={500} style={{
+            <LazyLoad height={height} style={{
                 display: 'flex',
                 justifyContent: 'center'
             }}>
