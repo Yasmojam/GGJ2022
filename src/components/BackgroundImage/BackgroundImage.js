@@ -1,12 +1,16 @@
 
 import './BackgroundImage.scss';
-import CrossfadeImage from 'react-crossfade-image';
+import LazyLoad from 'react-lazyload';
 
 const BackgroundImage = ({ src }) => {
-
     return (
         <div className="BackgroundImage">
-            <CrossfadeImage duration={1000} src={src} alt="" />
+            <LazyLoad height={500} style={{
+                display: 'flex',
+                justifyContent: 'center'
+            }}>
+                <img src={src} />
+            </LazyLoad>
         </div>
     );
 };
