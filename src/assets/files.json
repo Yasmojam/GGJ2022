@@ -1,23 +1,32 @@
 {
     "animals": [
+        "Adaptable.png",
         "Arachnids.png",
+        "Big Fish.png",
         "Birds.png",
         "Common Enemy.png",
         "Dead Fish.png",
         "Don't Look Up....png",
         "Enlightenment.png",
         "Fish.png",
+        "I am become Death....png",
         "Incy Windy spider….png",
         "Liberate.png",
         "Lizards.png",
         "Mammals.png",
+        "MammalsAT.png",
+        "MammalsT.png",
         "Polar Bear Rocket.png",
         "Polar Bear Wild.png",
         "Safe and sorry.png",
         "Seal.png",
         "Shark.png",
+        "Slow and Steady.png",
+        "Small Fish.png",
+        "Survival.png",
         "There is only War i.png",
-        "To Infinity….png"
+        "To Infinity….png",
+        "Witness Me.png"
     ],
     "backgrounds": [
         "binary.png",
