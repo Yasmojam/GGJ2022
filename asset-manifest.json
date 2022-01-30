@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc32c1b9.css",
-    "main.js": "/static/js/main.db7d9716.js",
-    "static/js/787.e9e7a448.chunk.js": "/static/js/787.e9e7a448.chunk.js",
-    "static/media/JMH-Typewriter-Thin.ttf": "/static/media/JMH-Typewriter-Thin.a54c0ca98281ddd76d83.ttf",
-    "static/media/JMH-Typewriter-Bold.ttf": "/static/media/JMH-Typewriter-Bold.ba1b92688cda05db2697.ttf",
-    "static/media/JMH-Typewriter.ttf": "/static/media/JMH-Typewriter.cfe2f95116145cd7bacf.ttf",
-    "static/media/SplendidI.ttf": "/static/media/SplendidI.cc9ba5cd2be243a0c49d.ttf",
-    "static/media/SplendidN.ttf": "/static/media/SplendidN.aa380651a6542f95731c.ttf",
-    "static/media/SplendidB.ttf": "/static/media/SplendidB.3878dbd3026ab85fe5a5.ttf",
-    "index.html": "/index.html",
-    "main.dc32c1b9.css.map": "/static/css/main.dc32c1b9.css.map",
-    "main.db7d9716.js.map": "/static/js/main.db7d9716.js.map",
-    "787.e9e7a448.chunk.js.map": "/static/js/787.e9e7a448.chunk.js.map"
+    "main.css": "/ggj2022/static/css/main.006d4a5c.css",
+    "main.js": "/ggj2022/static/js/main.1e208483.js",
+    "static/js/787.e9e7a448.chunk.js": "/ggj2022/static/js/787.e9e7a448.chunk.js",
+    "static/media/JMH-Typewriter-Thin.ttf": "/ggj2022/static/media/JMH-Typewriter-Thin.a54c0ca98281ddd76d83.ttf",
+    "static/media/JMH-Typewriter-Bold.ttf": "/ggj2022/static/media/JMH-Typewriter-Bold.ba1b92688cda05db2697.ttf",
+    "static/media/JMH-Typewriter.ttf": "/ggj2022/static/media/JMH-Typewriter.cfe2f95116145cd7bacf.ttf",
+    "static/media/SplendidI.ttf": "/ggj2022/static/media/SplendidI.cc9ba5cd2be243a0c49d.ttf",
+    "static/media/SplendidN.ttf": "/ggj2022/static/media/SplendidN.aa380651a6542f95731c.ttf",
+    "static/media/SplendidB.ttf": "/ggj2022/static/media/SplendidB.3878dbd3026ab85fe5a5.ttf",
+    "index.html": "/ggj2022/index.html",
+    "main.006d4a5c.css.map": "/ggj2022/static/css/main.006d4a5c.css.map",
+    "main.1e208483.js.map": "/ggj2022/static/js/main.1e208483.js.map",
+    "787.e9e7a448.chunk.js.map": "/ggj2022/static/js/787.e9e7a448.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc32c1b9.css",
-    "static/js/main.db7d9716.js"
+    "static/css/main.006d4a5c.css",
+    "static/js/main.1e208483.js"
   ]
 }
