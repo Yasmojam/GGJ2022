@@ -3,17 +3,17 @@
 .Link {
   display: flex;
   justify-content: center;
-  align-items: center;
   cursor: pointer;
   color: defaults.$link-color;
-  font-size: x-large;
+  font-size: larger;
   font-weight: bold;
-  padding: 8px;
-  margin: 0 8px;
-  @media screen and (max-width: defaults.$breakpoint-sm) {
-    text-align: center;
-    margin: 8px;
-  }
+  padding: .25rem .5rem;
+}
+
+.LinksContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .Link:hover {

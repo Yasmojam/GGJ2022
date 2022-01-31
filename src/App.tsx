@@ -1,24 +1,31 @@
-import React, { useContext, useState } from "react";
+import React, {useContext, useState} from "react";
 import { GameContext } from "./context/GameContext";
 import "./App.scss";
-import Game from "./components/Game/Game";
-import LanguageSelection from "./components/LanguageSelection/LanguageSelection";
+import GameComponent from "./components/GameComponent";
 
-const App = () => {
+
+function App() {
+
   const gameState = useContext(GameContext);
-  const [selectedLanguage, setSelectedLanguage] = useState("");
-  return (
+  const [selectedLanguage, setSelectedLanguage]=useState("");
+  const list = ["RU", "EN", "AR"];
+
+  return selectedLanguage == "" || !gameState.loaded ? (
     <div className="App">
-      {selectedLanguage == "" || !gameState.loaded ? (
-        <LanguageSelection
-          gameState={gameState}
-          setLanguage={setSelectedLanguage}
-        />
-      ) : (
-        <Game />
-      )}
+      {(list.map((language: String, index: number) => {
+        return (
+          <div key={index} onClick={()=>{
+            setSelectedLanguage(language as Language);
+            gameState.setLanguage(language as Language)
+          }}>{language}</div>
+        )}))}
+    </div>
+  ) :
+   (
+    <div className="App">
+      <GameComponent />
     </div>
   );
-};
+}
 
 export default App;

@@ -2,8 +2,8 @@ import React, { createContext, useEffect, useState } from "react";
 import { getLocalStorage, setLocalStorage } from "../localStorage/functions";
 import StoryManager from "../twison/StoryManager";
 
-export interface IContext {
-  language: Language | null;
+interface IContext {
+  language: Language;
   username: string;
   currentPassage: Passage | null;
   setUsername?: (username: string) => void;
@@ -26,25 +26,29 @@ export const GameContext = createContext<IContext>({
   setLanguage: (language: Language) => {},
 });
 
-let storyManager: StoryManager;
+let storyManager: StoryManager
 
 export const GameProvider: React.FC = ({ children }) => {
-  const [language, setLanguage] = useState<Language | null>(null);
+  const [language, setLanguage] = useState<Language | null>(
+    null
+  );
 
   const [username, setUsername] = useState<string>(
     getLocalStorage("username", "")
   );
 
-  const [currentPassageId, setCurrentPassageId] = useState<string>("");
+  const [currentPassageId, setCurrentPassageId] = useState<string>(
+    ""
+  );
 
   const [loaded, setLoaded] = useState<boolean>(false);
 
   useEffect(() => {
-    if (language !== null) {
+    if(language !== null) {
       storyManager = new StoryManager(language);
       setCurrentPassageId(storyManager.getCurrentPid());
       setLocalStorage("language", language);
-      setLoaded(true);
+      setLoaded(true)
     }
   }, [language]);
 

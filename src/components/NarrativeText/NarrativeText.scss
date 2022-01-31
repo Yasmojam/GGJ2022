@@ -4,18 +4,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 16px;
-  flex: 1;
+  text-align: justify;
+  padding: 1rem 4rem;
 }
 
-.innerText {
-  font-size: large;
-}
-
-.innerTextRtL {
-  font-size: large;
-  direction: rtl;
-}
 
 .tooltip {
   color: defaults.$link-color;
@@ -37,7 +29,7 @@
 
 .rc-tooltip-inner {
   // background-color:  !important;
-  font-size: large;
+  font-size: 1.75rem;
   line-height: normal;
   border-radius: 8px !important;
   text-align: center !important;

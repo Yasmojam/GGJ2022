@@ -1,0 +1,15 @@
+.images {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 4rem;
+    height: 30rem;
+
+    .world {
+        flex-grow: 1;
+    }
+
+    .animal {
+        flex-grow: 0;
+        min-width: none;
+    }
+}

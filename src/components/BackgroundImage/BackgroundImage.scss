@@ -1,12 +1,5 @@
-@use "defaults";
-
 .BackgroundImage {
     img {
-        width: 100%;
-        max-height: 350px;
-        @media screen and (max-width: defaults.$breakpoint-md) {
-            margin: 16px 32px;
-            max-height: 200px;
-        }
+        height: 30rem;
     }
 }
