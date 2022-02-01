@@ -1,4 +1,9 @@
 export const localisationDictionary = {
+  title: {
+    EN: "God Complex",
+    RU: "Комплекс Бога",
+    AR: "مجمع الله",
+  },
   ending: {
     EN: "Ending:",
     RU: "Окончание:",

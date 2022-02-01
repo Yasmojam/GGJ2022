@@ -26,7 +26,7 @@ class StoryManager {
   }
 
   preprocess(): Story {
-    const story = this.locale == "EN" ? storyEng : this.locale == "RU" ? storyRu : storyAr;
+    const story = this.locale === "EN" ? storyEng : this.locale === "RU" ? storyRu : storyAr;
     const copy = JSON.parse(JSON.stringify(story));
     copy.passages.forEach((passage: any) => {
       // Process text

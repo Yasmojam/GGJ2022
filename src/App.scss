@@ -8,4 +8,18 @@
     justify-content: center;
     color: white;
     font-size: x-large;
+    border: 1px solid red;
+    flex:1;
+}
+.headerWrapper {
+    display: flex;
+    background-color: green;
+    justify-content: space-between;
+
+    width: 100%;
+}
+.gameContentWrapper{
+    display: flex;
+    flex: 1;
+    border: 2px solid aliceblue;
 }
