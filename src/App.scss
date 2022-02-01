@@ -1,25 +1,51 @@
+@use "defaults";
 
 .App {
-    background-color: #394352;
+    background-color: defaults.$background-color;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: x-large;
+    font-size: xx-large;
     border: 1px solid red;
-    flex:1;
+    flex: 1;
 }
 .headerWrapper {
     display: flex;
-    background-color: green;
+    background-color: defaults.$link-color;
     justify-content: space-between;
-
+    box-sizing: border-box;
     width: 100%;
+    padding: 8px 16px;
+
+    @media screen and (max-width: defaults.$breakpoint-sm) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
-.gameContentWrapper{
+
+.titleWrapper {
+    font-size: xxx-large;
+}
+
+.buttonWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    margin: 0 8px;
+}
+
+.gameContentWrapper {
     display: flex;
     flex: 1;
     border: 2px solid aliceblue;
+    width: 100%;
+    justify-content: center;
 }

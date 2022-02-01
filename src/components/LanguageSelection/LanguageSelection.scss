@@ -17,5 +17,10 @@
 .langOption:hover {
   display: flex;
   padding: 10px;
-  color: defaults.$option-hover-color;
+  color: defaults.$lang-hover-color;
+}
+
+.langPrompt {
+  display: flex;
+  text-align: center;
 }

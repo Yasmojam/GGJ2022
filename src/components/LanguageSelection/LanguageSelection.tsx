@@ -1,6 +1,7 @@
 import React from "react";
 import { IContext } from "../../context/GameContext";
 import "./LanguageSelection.scss";
+import { localisationDictionary as ld } from "../../languageUiLocalisations";
 
 interface LanguageSelectionProps {
   setLanguage: React.Dispatch<React.SetStateAction<string>>;
@@ -14,7 +15,7 @@ const LanguageSelection = ({
   const list = ["RU", "EN", "AR"];
   return (
     <div className={"langSelectionCont"}>
-      <div>Choose a language:</div>
+      <div className={"langPrompt"}>{ld.chooseLang["EN"]}</div>
       {list.map((language: String, index: number) => {
         return (
           <div

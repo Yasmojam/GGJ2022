@@ -9,7 +9,7 @@ import { AnimateOnChange } from "react-animation";
 import files from "../../assets/files.json";
 import "./Game.scss";
 import ReactAudioPlayer from "react-audio-player";
-import { localisationDictionary } from "../../languageUiLocalisations";
+import { localisationDictionary as ld } from "../../languageUiLocalisations";
 
 export default function Game() {
   const gameState = useContext(GameContext);
@@ -39,8 +39,8 @@ export default function Game() {
       />
 
       <div className="night">
-        {[...Array(30).keys()].map((_) => (
-          <div className="shooting_star" />
+        {[...Array(30).keys()].map((index) => (
+          <div className="shooting_star" key={index} />
         ))}
       </div>
 
@@ -78,15 +78,13 @@ export default function Game() {
 
         {!animalImgName.includes("Menu Screen") &&
         gameState.currentPassage.links.length === 2 ? (
-          <div className={"playerPrompt"}>
-            {localisationDictionary.choose[gameState.language]}
-          </div>
+          <div className={"playerPrompt"}>{ld.choose[gameState.language]}</div>
         ) : null}
 
         {!animalImgName.includes("Menu Screen") &&
         gameState.currentPassage.links.length < 2 ? (
           <div className={"playerPrompt"}>
-            {localisationDictionary.ending[gameState.language]} {" : "}
+            {ld.ending[gameState.language]} {" : "}
             {gameState.currentPassage?.name}
           </div>
         ) : null}

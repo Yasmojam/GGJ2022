@@ -3,25 +3,37 @@ import { GameContext } from "./context/GameContext";
 import "./App.scss";
 import Game from "./components/Game/Game";
 import LanguageSelection from "./components/LanguageSelection/LanguageSelection";
-import {localisationDictionary as ld}  from "./languageUiLocalisations";
+import { localisationDictionary as ld } from "./languageUiLocalisations";
 
 const App = () => {
   const gameState = useContext(GameContext);
   const [selectedLanguage, setSelectedLanguage] = useState("");
   return (
     <div className="App">
-      <div className={"headerWrapper"} style={gameState.language === "AR"? {flexDirection : "row-reverse"}:{}}>{gameState.language? ld.title[gameState.language]: ld.title.EN}</div>
+      <div
+        className={"headerWrapper"}
+        style={
+          gameState.language === "AR" ? { flexDirection: "row-reverse" } : {}
+        }
+      >
+        <div className={"titleWrapper"}>
+          {gameState.language ? ld.title[gameState.language] : ld.title.EN}
+        </div>
+        <div className={"buttonWrapper"}>
+          <div className={"button"}>Hi</div>
+          <div className={"button"}>Hi</div>
+          <div className={"button"}>Hi</div>
+        </div>
+      </div>
       <div className={"gameContentWrapper"}>
-      {selectedLanguage === "" || !gameState.loaded ? (
-
-        <LanguageSelection
-          gameState={gameState}
-          setLanguage={setSelectedLanguage}
-        />
-
-      ) : (
-        <Game />
-      )}
+        {selectedLanguage === "" || !gameState.loaded ? (
+          <LanguageSelection
+            gameState={gameState}
+            setLanguage={setSelectedLanguage}
+          />
+        ) : (
+          <Game />
+        )}
       </div>
     </div>
   );
