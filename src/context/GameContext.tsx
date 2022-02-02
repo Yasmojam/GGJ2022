@@ -29,9 +29,7 @@ export const GameContext = createContext<IContext>({
 let storyManager: StoryManager;
 
 export const GameProvider: React.FC = ({ children }) => {
-  const [language, setLanguage] = useState<Language | null>(
-    getLocalStorage("language", "")
-  );
+  const [language, setLanguage] = useState<Language | null>(getLocalStorage("language", ""));
 
   const [username, setUsername] = useState<string>(
     getLocalStorage("username", "")
@@ -45,7 +43,6 @@ export const GameProvider: React.FC = ({ children }) => {
     if (language !== null) {
       storyManager = new StoryManager(language);
       setCurrentPassageId(storyManager.getCurrentPid());
-      setLocalStorage("language", language);
       setLoaded(true);
     }
   }, [language]);
@@ -71,7 +68,10 @@ export const GameProvider: React.FC = ({ children }) => {
         goBack: () => setCurrentPassageId(storyManager?.goBack()),
         startNode: storyManager?.getStartNode(),
         backgroundImage: storyManager?.getChoices().join("_"),
-        setLanguage: (language: Language) => setLanguage(language),
+        setLanguage: (language: Language) => {
+          setLanguage(language);
+          setLocalStorage("language", language);
+        }
       }}
     >
       {children}
