@@ -29,7 +29,9 @@ export const GameContext = createContext<IContext>({
 let storyManager: StoryManager;
 
 export const GameProvider: React.FC = ({ children }) => {
-  const [language, setLanguage] = useState<Language | null>(null);
+  const [language, setLanguage] = useState<Language | null>(
+    getLocalStorage("language", "")
+  );
 
   const [username, setUsername] = useState<string>(
     getLocalStorage("username", "")
