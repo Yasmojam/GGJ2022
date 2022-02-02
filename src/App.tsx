@@ -3,21 +3,18 @@ import { GameContext } from "./context/GameContext";
 import "./App.scss";
 import Game from "./components/Game/Game";
 import LanguageSelection from "./components/LanguageSelection/LanguageSelection";
-import { getLocalStorage } from "./localStorage/functions";
+import { getLanguage } from "./localStorage/functions";
 
 const App = () => {
   const gameState = useContext(GameContext);
-  const [selectedLanguage, setSelectedLanguage] = useState(getLocalStorage("language", ""));
+  const [selectedLanguage, setSelectedLanguage] = useState(getLanguage());
   return (
     <div className="App">
-      {selectedLanguage === "" || !gameState.loaded ? (
-        <LanguageSelection
-          gameState={gameState}
-          setLanguage={setSelectedLanguage}
-        />
-      ) : (
-        <Game />
-      )}
+      <LanguageSelection
+        gameState={gameState}
+        setLanguage={setSelectedLanguage}
+      />
+      { gameState.loaded && <Game />}
     </div>
   );
 };
