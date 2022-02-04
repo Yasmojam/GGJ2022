@@ -1,10 +1,18 @@
 import React from "react";
 import { IContext } from "../../context/GameContext";
+import EmojiFlags from "emoji-flags";
 import "./LanguageSelection.scss";
 
 interface LanguageSelectionProps {
   setLanguage: React.Dispatch<React.SetStateAction<string>>;
   gameState: IContext;
+}
+
+
+const flags = {
+  EN: EmojiFlags.countryCode("GB").emoji,
+  RU: EmojiFlags.countryCode("RU").emoji,
+  AR: EmojiFlags.countryCode("AE").emoji,
 }
 
 const LanguageSelection = ({
@@ -14,7 +22,6 @@ const LanguageSelection = ({
   const list = ["RU", "EN", "AR"];
   return (
     <div className={"langSelectionCont"}>
-      <div>Choose a language:</div>
       {list.map((language: String, index: number) => {
         return (
           <div
@@ -25,7 +32,7 @@ const LanguageSelection = ({
               gameState.setLanguage(language as Language);
             }}
           >
-            {language}
+            {flags[language]}
           </div>
         );
       })}
