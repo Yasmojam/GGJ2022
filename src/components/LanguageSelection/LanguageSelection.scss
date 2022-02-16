@@ -1,0 +1,26 @@
+@use "defaults";
+
+.langSelectionCont {
+  position: relative;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  align-self: flex-end;
+  // width: 100%;
+}
+
+.langOption {
+  display: flex;
+  padding: 10px;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.langOption:hover {
+  display: flex;
+  padding: 10px;
+  color: defaults.$option-hover-color;
+}

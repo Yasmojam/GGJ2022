@@ -16,3 +16,7 @@ export const getLocalStorage = (key: string, initialValue: any) => {
     return initialValue;
   }
 };
+
+export const getLanguage = () => {
+  return getLocalStorage("language", "EN");
+}
